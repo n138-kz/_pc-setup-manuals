@@ -1,5 +1,6 @@
 # pc_win10 setup
 
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://www.nvidia.com/ja-jp/)nvidia geforce drivers](https://www.nvidia.com/ja-jp/geforce/drivers/)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://7-zip.opensource.jp/download.html)7-Zip](https://7-zip.opensource.jp/download.html)
   - 通常は exeタイプのインストーラー を使用
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.google.com/chrome/)Google chrome](https://www.google.com/chrome)
