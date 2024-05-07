@@ -17,3 +17,4 @@
 - [![](https://www.google.com/s2/favicons?size=64&domain=docker.com)Docker Desktop for Windows](https://docs.docker.com/desktop/install/windows-install/)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.gimp.org/)GIMP](https://www.gimp.org/downloads/)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.videolan.org/)Video LAN VLC Player](https://www.videolan.org/vlc/download-windows.html)
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://parakeet-inc.com/)ParakeetVC Paravo](https://parakeet-inc.com/paravo#paravo-install)
