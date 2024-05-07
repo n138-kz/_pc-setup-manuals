@@ -32,3 +32,4 @@
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://apps.microsoft.com/)HEIF/HEVC](https://www.microsoft.com/ja-jp/p/%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E8%A3%BD%E9%80%A0%E5%85%83%E3%81%8B%E3%82%89%E3%81%AE-hevc-%E3%83%93%E3%83%87%E3%82%AA%E6%8B%A1%E5%BC%B5%E6%A9%9F%E8%83%BD/9n4wgh0z6vhq?activetab=pivot:overviewtab)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://pay.line.me/)Line](https://pay.line.me/portal/jp/apps/line)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://discord.com/)Discord](https://discord.com/)
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://www.teamviewer.com/)Teamviewer](https://www.teamviewer.com/ja/download/windows/?utm_source=google&utm_medium=cpc&utm_campaign=jp%7Cb%7Cpr%7C23%7Cdec%7Ctv-core-brand-only-exact-sn%7Cnew%7Ct0%7C0&utm_content=Exact&utm_term=teamviewer)
