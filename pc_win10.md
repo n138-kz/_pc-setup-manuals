@@ -15,6 +15,7 @@
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://voicevox.hiroshiba.jp/)VOICEVOX](https://voicevox.hiroshiba.jp/)
   - 通常は GPU/CPUインストーラー を使用
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://aivoice.jp/)A.I.VOICE](https://aivoice.jp/member/storage/dl/editor/2.5.0/AIVoice2Editor.msi)
+  - [A.I.VOICE 琴葉 茜・葵](https://aivoice.jp/member/downloads/all-in-one/kotonoha)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://aivoice.jp/)A.I.VOICE2](https://aivoice.jp/member/storage/dl/editor/1.4.9/AIVoiceEditor.msi)
   - [A.I.VOICE2 紲星 あかり](https://aivoice.jp/member/mydownloads/character/KizunaAkari#aivoice2)
 - [![](https://www.google.com/s2/favicons?size=64&domain=docker.com)Docker Desktop for Windows](https://docs.docker.com/desktop/install/windows-install/)
