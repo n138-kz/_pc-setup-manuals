@@ -1,5 +1,7 @@
 # pc_win10 setup
 
+## Software
+
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.nvidia.com/ja-jp/)nvidia geforce drivers](https://www.nvidia.com/ja-jp/geforce/drivers/)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://7-zip.opensource.jp/download.html)7-Zip](https://7-zip.opensource.jp/download.html)
   - 通常は exeタイプのインストーラー を使用
@@ -36,3 +38,22 @@
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://discord.com/)Discord](https://discord.com/)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.teamviewer.com/)Teamviewer](https://www.teamviewer.com/ja/download/windows/?utm_source=google&utm_medium=cpc&utm_campaign=jp%7Cb%7Cpr%7C23%7Cdec%7Ctv-core-brand-only-exact-sn%7Cnew%7Ct0%7C0&utm_content=Exact&utm_term=teamviewer)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.python.org/)Python3](https://www.python.org/downloads/)
+
+---
+
+## Setup
+
+- [Windowsの時計に「秒」を表示する方法](https://engrholiday.jp/win/surface-clock-second/)
+
+1. レジストリエディターより以下の場所を開きます。
+
+```
+コンピューター\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+```
+
+2. Advancedキー内にDWORD（32ビット）値の［`ShowSecondsInSystemClock`］が無い場合は作成します。
+3. `ShowSecondsInSystemClock`をダブルクリックし［値のデータ］を【`1`】に変更します。
+4. パソコンを再起動します。
+
+
+
