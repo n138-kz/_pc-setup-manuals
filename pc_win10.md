@@ -14,6 +14,8 @@
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://store.steampowered.com/)STEAM](https://store.steampowered.com/about/)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://voicevox.hiroshiba.jp/)VOICEVOX](https://voicevox.hiroshiba.jp/)
   - 通常は GPU/CPUインストーラー を使用
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://aivoice.jp/)A.I.VOICE](https://aivoice.jp/member/storage/dl/editor/2.5.0/AIVoice2Editor.msi)
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://aivoice.jp/)A.I.VOICE2](https://aivoice.jp/member/storage/dl/editor/1.4.9/AIVoiceEditor.msi)
 - [![](https://www.google.com/s2/favicons?size=64&domain=docker.com)Docker Desktop for Windows](https://docs.docker.com/desktop/install/windows-install/)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.gimp.org/)GIMP](https://www.gimp.org/downloads/)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.videolan.org/)Video LAN VLC Player](https://www.videolan.org/vlc/download-windows.html)
