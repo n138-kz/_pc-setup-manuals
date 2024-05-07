@@ -6,6 +6,7 @@
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://tools.google.com/dlpage/japaneseinput/eula.html?platform=win)Google IME](https://tools.google.com/dlpage/japaneseinput/eula.html?platform=win)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://sakura-editor.github.io/)Sakura Editor](https://github.com/sakura-editor/sakura/releases)
   - 通常は インストーラー を使用
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://winmerge.org/?lang=ja)WinMerge](https://winmerge.org/downloads/?lang=ja)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://chigusa-web.com/clibor/download/)Clibor](https://www.vector.co.jp/download/file/winnt/util/fh767948.html)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://ffmpeg.org/)ffmpeg](https://github.com/BtbN/FFmpeg-Builds/releases)
   - 通常は ffmpeg-master-latest-win64-gpl.zip を使用
