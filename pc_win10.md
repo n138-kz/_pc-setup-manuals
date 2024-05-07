@@ -18,3 +18,5 @@
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.gimp.org/)GIMP](https://www.gimp.org/downloads/)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.videolan.org/)Video LAN VLC Player](https://www.videolan.org/vlc/download-windows.html)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://parakeet-inc.com/)ParakeetVC Paravo](https://parakeet-inc.com/paravo#paravo-install)
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://apps.microsoft.com/)HEIF/HEIC](https://www.microsoft.com/ja-jp/p/heif-%E7%94%BB%E5%83%8F%E6%8B%A1%E5%BC%B5%E6%A9%9F%E8%83%BD/9pmmsr1cgpwg?activetab=pivot:overviewtab)
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://apps.microsoft.com/)HEIF/HEVC](https://www.microsoft.com/ja-jp/p/%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E8%A3%BD%E9%80%A0%E5%85%83%E3%81%8B%E3%82%89%E3%81%AE-hevc-%E3%83%93%E3%83%87%E3%82%AA%E6%8B%A1%E5%BC%B5%E6%A9%9F%E8%83%BD/9n4wgh0z6vhq?activetab=pivot:overviewtab)
