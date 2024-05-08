@@ -1,5 +1,15 @@
 # windows pc
 
+- [windows pc](#windows-pc)
+  - [Software](#software)
+  - [Setup](#setup)
+    - [Win10](#win10)
+      - [Windowsの時計に「秒」を表示する方法](#windowsの時計に秒を表示する方法)
+        - [設定を元に戻す方法](#設定を元に戻す方法)
+    - [win11](#win11)
+      - [Windows 11の右クリックメニュー](#windows-11の右クリックメニュー)
+        - [設定を元に戻す方法](#設定を元に戻す方法-1)
+
 ## Software
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.nvidia.com/ja-jp/)nvidia geforce drivers](https://www.nvidia.com/ja-jp/geforce/drivers/)
