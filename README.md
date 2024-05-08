@@ -4,7 +4,6 @@
 
 [pc_win10](docs/pc_windows.md)
 
-
 ## Activity
 
 [![GitHub repo license](https://img.shields.io/github/license/n138-kz/_DEFAULTREPOS)](/LICENSE)
@@ -25,6 +24,3 @@
 
 [![License MIT](https://upload.wikimedia.org/wikipedia/commons/0/0c/MIT_logo.svg)](LICENSE)  
 [Copyright (c) 2024 Yuu Komiya (n138)](LICENSE)  
-
-
-
