@@ -38,7 +38,7 @@
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://discord.com/)Discord](https://discord.com/)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.teamviewer.com/)Teamviewer](https://www.teamviewer.com/ja/download/windows/?utm_source=google&utm_medium=cpc&utm_campaign=jp%7Cb%7Cpr%7C23%7Cdec%7Ctv-core-brand-only-exact-sn%7Cnew%7Ct0%7C0&utm_content=Exact&utm_term=teamviewer)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.python.org/)Python3](https://www.python.org/downloads/)
-- [![](https://www.google.com/s2/favicons?size=64&domain=https://central.github.com)Github Desktop](https://central.github.com/deployments/desktop/desktop/latest/win32)
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://github.com)Github Desktop](https://central.github.com/deployments/desktop/desktop/latest/win32)
 
 ---
 
