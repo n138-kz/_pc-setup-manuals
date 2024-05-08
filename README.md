@@ -1,5 +1,9 @@
 #_pc-setup-manuals
 
+- [pc\_windows](#pc_windows)
+- [Activity](#activity)
+- [License](#license)
+
 ## pc_windows
 
 [pc_win10](docs/pc_windows.md)
