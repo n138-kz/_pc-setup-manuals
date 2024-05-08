@@ -85,7 +85,7 @@ reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\
 
 ##### 設定を元に戻す方法
 
-1. 作成したキーを削除するだけ
+1. 作成したキーを削除する
 
 ```reg
 reg.exe delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" /f
