@@ -12,6 +12,9 @@
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://winmerge.org/?lang=ja)WinMerge](https://winmerge.org/downloads/?lang=ja)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://teratermproject.github.io/)TeraTerm](https://github.com/TeraTermProject/teraterm/releases)
   - 通常は zip を使用
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://code.visualstudio.com/)VS Code](https://code.visualstudio.com/)
+  - 通常は User Installer を使用
+  - Plugin: [Markdown All in One](https://qiita.com/eyuta/items/b1a53f3da8c5f8e7f41d)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://chigusa-web.com/clibor/download/)Clibor](https://www.vector.co.jp/download/file/winnt/util/fh767948.html)
 - [![](https://www.google.com/s2/favicons?size=64&domain=docker.com)Docker Desktop for Windows](https://docs.docker.com/desktop/install/windows-install/)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.gimp.org/)GIMP](https://www.gimp.org/downloads/)
