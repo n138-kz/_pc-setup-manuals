@@ -2,7 +2,7 @@
 
 ## pc_windows
 
-[pc_win10](pc_windows.md) --> [pc_win10](pc_windows.html)
+[pc_win10](pc_windows.md) --> [pc_win10](https://n138-kz.github.io/_pc-setup-manuals/pc_windows.html)
 
 
 ## Activity
