@@ -1,4 +1,4 @@
-# pc_win10 setup
+# windows pc
 
 ## Software
 
@@ -42,19 +42,49 @@
 
 ---
 
-## Setup
+## Setup 
 
-### [Windowsの時計に「秒」を表示する方法](https://engrholiday.jp/win/surface-clock-second/)
+### Win10
+
+#### [Windowsの時計に「秒」を表示する方法](https://engrholiday.jp/win/surface-clock-second/)
 
 1. レジストリエディターより以下の場所を開きます。
 
-```
+```reg
 コンピューター\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced
 ```
 
-2. Advancedキー内にDWORD（32ビット）値の［`ShowSecondsInSystemClock`］が無い場合は作成します。
+2. `Advanced`キー内に`DWORD（32ビット）`値の［`ShowSecondsInSystemClock`］が無い場合は作成します。
 3. `ShowSecondsInSystemClock`をダブルクリックし［値のデータ］を【`1`】に変更します。
-4. パソコンを再起動します。
+4. 再度サインインまたはパソコンを再起動します。
 
+##### 設定を元に戻す方法
 
+1. 作成したキーを削除するか、［値のデータ］を【`0`】に変更
 
+### win11
+
+#### [Windows 11の右クリックメニュー](https://and-engineer.com/articles/Y6pL0xIAACIAbxZU/)
+
+1. レジストリエディターより以下の場所を開きます。
+
+```reg
+コンピューター\HKEY_CURRENT_USER\Software\Classes\CLSID
+```
+
+2. `CLSID`キー内に`キー`の［`{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}`］が無い場合は作成します。
+3. `{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}`キー内に`キー`の［`InProcServer32`］が無い場合は作成します。
+4. `既定`をダブルクリックし［値のデータ］を【``(空欄)】に変更します。
+5. 再度サインインまたはパソコンを再起動します。
+
+```reg
+reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InProcServer32" /f /ve
+```
+
+##### 設定を元に戻す方法
+
+1. 作成したキーを削除するだけ
+
+```reg
+reg.exe delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" /f
+```
