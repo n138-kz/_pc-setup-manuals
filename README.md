@@ -2,7 +2,7 @@
 
 ## pc_windows
 
-[pc_win10](pc_windows.md)
+[pc_win10](docs/pc_windows.md)
 
 
 ## Activity
