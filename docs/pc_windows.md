@@ -18,6 +18,8 @@
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.google.com/chrome/)Google chrome](https://www.google.com/chrome)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://tools.google.com/dlpage/japaneseinput/eula.html?platform=win)Google IME](https://tools.google.com/dlpage/japaneseinput/eula.html?platform=win)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.google.com/intl/ja_jp/drive/download/)Google Drive](https://dl.google.com/drive-file-stream/GoogleDriveSetup.exe)
+- [![](https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.kingjim.co.jp/&size=16)TEPRA Label Editor SPC10](https://www.kingjim.co.jp/download/tepra/labeleditor.html?open=tab-02&move=anc-01)
+  - [キングジム テプラPRO モノクロ SR5900P](https://www.kingjim.co.jp/download/tepra/sr5900p/) を使用中 ([amazon](https://amzn.to/3QNRPH8))
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://sakura-editor.github.io/)Sakura Editor](https://github.com/sakura-editor/sakura/releases)
   - 通常は インストーラー を使用
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://winmerge.org/?lang=ja)WinMerge](https://winmerge.org/downloads/?lang=ja)
