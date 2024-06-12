@@ -107,6 +107,14 @@
 コンピューター\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced
 ```
 
+```reg
+reg.exe query "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "ShowSecondsInSystemClock" /t REG_DWORD
+```
+
+```reg
+reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /f /v "ShowSecondsInSystemClock" /d 1
+```
+
 2. `Advanced`キー内に`DWORD（32ビット）`値の［`ShowSecondsInSystemClock`］が無い場合は作成します。
 3. `ShowSecondsInSystemClock`をダブルクリックし［値のデータ］を【`1`】に変更します。
 4. 再度サインインまたはパソコンを再起動します。
