@@ -1,4 +1,4 @@
-#_pc-setup-manuals
+# [_pc-setup-manuals](https://github.com/n138-kz/_pc-setup-manuals)
 
 ## pc_windows
 
