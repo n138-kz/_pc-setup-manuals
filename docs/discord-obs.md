@@ -1,4 +1,4 @@
-# Discord StreamKit Overlay
+# [Discord StreamKit Overlay](discord-obs.md)
 
 - [Discord StreamKit Overlay](https://streamkit.discord.com/overlay)
 - [OBSでDiscordのアイコンを四角や横並びにするジェネレーター](https://blog.alfebelow.com/entry/2022/03/20/obs-discord-icon)

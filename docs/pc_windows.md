@@ -1,4 +1,4 @@
-# windows pc
+# [windows pc](pc_windows.md)
 
 - [windows pc](#windows-pc)
   - [Software](#software)

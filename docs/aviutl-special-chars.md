@@ -1,4 +1,4 @@
-# AviUtl Support Utl
+# [AviUtl Support Utl](aviutl-special-chars.md)
 
 ## 文字サイズ
 
