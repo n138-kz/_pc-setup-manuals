@@ -3,6 +3,7 @@
 ## pc_windows
 
 [pc_win10](docs/pc_windows.md)
+[discord-obs](docs/discord-obs.md)
 
 ## Activity
 
