@@ -25,3 +25,11 @@
 <#ffa500>表示テキスト<#>
 ```
 
+## 文字縁色
+
+- text-color: #ffa500
+- text-edge-color: #f5deb3
+
+```
+<#ffa500,f5deb3>表示テキスト<#>
+```
