@@ -135,7 +135,7 @@ reg add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /f /v
 reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced /v HideFileExt /t REG_DWORD /d 0 /f
 ```
 
-### インターネットオプション
+#### [インターネットオプション]()
 
 ```cmd
 control inetcpl.cpl
