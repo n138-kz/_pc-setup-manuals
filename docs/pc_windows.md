@@ -135,6 +135,12 @@ reg add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /f /v
 reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced /v HideFileExt /t REG_DWORD /d 0 /f
 ```
 
+### インターネットオプション
+
+```cmd
+control inetcpl.cpl
+```
+
 ### win11
 
 #### [Windows 11の右クリックメニュー](https://and-engineer.com/articles/Y6pL0xIAACIAbxZU/)
