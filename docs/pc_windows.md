@@ -79,6 +79,9 @@
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://ffmpeg.org/)ffmpeg](https://github.com/BtbN/FFmpeg-Builds/releases)
   - 通常は ffmpeg-master-latest-win64-gpl.zip を使用
   - zipファイルの中身を解凍し `bin` に対して[パスを通す](https://taziku.co.jp/blog/windows-ffmpeg)
+  ```cmd
+  set PATH=%PATH%;%USERPROFILE%\bin\ffmpeg-master-latest-win64-gpl\bin
+  ```
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://obsproject.com/)OBS Studio](https://obsproject.com/ja/download)
   - 通常は インストーラー を使用
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://store.steampowered.com/)STEAM](https://store.steampowered.com/about/)
