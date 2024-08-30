@@ -23,6 +23,7 @@
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://sakura-editor.github.io/)Sakura Editor](https://github.com/sakura-editor/sakura/releases)
   - 通常は インストーラー を使用
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://winmerge.org/?lang=ja)WinMerge](https://winmerge.org/downloads/?lang=ja)
+  - 通常は インストーラー `WinMerge-x.xx.xx.x-x64-Setup.exe` を使用
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://teratermproject.github.io/)TeraTerm](https://github.com/TeraTermProject/teraterm/releases)
   - 通常は zip を使用
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://code.visualstudio.com/)VS Code](https://code.visualstudio.com/)
