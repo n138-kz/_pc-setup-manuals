@@ -141,6 +141,8 @@ reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced /v Hide
 control inetcpl.cpl
 ```
 
+- [Windowsのコントロールパネルの各アイテムをコマンドラインから起動する @IT Tech TIPS](https://atmarkit.itmedia.co.jp/ait/articles/0507/02/news016.html)
+
 ### win11
 
 #### [Windows 11の右クリックメニュー](https://and-engineer.com/articles/Y6pL0xIAACIAbxZU/)
