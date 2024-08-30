@@ -112,11 +112,11 @@
 ```
 
 ```reg
-reg.exe query "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "ShowSecondsInSystemClock"
+reg query "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "ShowSecondsInSystemClock"
 ```
 
 ```reg
-reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /f /v "ShowSecondsInSystemClock" /t REG_DWORD /d 1
+reg add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /f /v "ShowSecondsInSystemClock" /t REG_DWORD /d 1
 ```
 
 2. `Advanced`キー内に`DWORD（32ビット）`値の［`ShowSecondsInSystemClock`］が無い場合は作成します。
@@ -126,6 +126,14 @@ reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /
 ##### 設定を元に戻す方法
 
 1. 作成したキーを削除するか、［値のデータ］を【`0`】に変更
+
+#### [拡張子表示]()
+
+1. レジストリエディターより以下の場所を開きます。
+
+```reg
+reg add HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced /v HideFileExt /t REG_DWORD /d 0 /f
+```
 
 ### win11
 
@@ -143,7 +151,7 @@ reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /
 5. 再度サインインまたはパソコンを再起動します。
 
 ```reg
-reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InProcServer32" /f /ve
+reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InProcServer32" /f /ve
 ```
 
 ##### 設定を元に戻す方法
@@ -151,5 +159,5 @@ reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\
 1. 作成したキーを削除する
 
 ```reg
-reg.exe delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" /f
+reg delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" /f
 ```
