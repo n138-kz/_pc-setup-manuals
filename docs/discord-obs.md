@@ -68,6 +68,10 @@
 
 ## 導入方法
 
+<details>
+
+<summary>Tips for collapsed sections</summary>
+
 1. OBSのソースにブラウザを追加
 OBSを起動、OBSのシーンを選択後、「ソース」欄で右クリックしてブラウザを追加
 
@@ -92,6 +96,8 @@ OBSに戻り、URLの少し下にあるカスタムCSSの入力欄に `6.` で�
 
 8. 作成完了
 ダイアログをOKで閉じて完了。OBSに話している人が表示されます。
+
+</details>
 
 ----------
 
