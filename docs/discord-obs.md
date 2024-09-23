@@ -8,6 +8,10 @@
 
 ### [Discord StreamKit Overlay](https://streamkit.discord.com/overlay)
 
+<details>
+
+<summary>Tips for collapsed sections</summary>
+
 - Show Speaking Users Only: false
 - Small Avatars: true
 - Hide Names: true
@@ -25,7 +29,13 @@
     - Shadow Color: #000000
     - Shadow Size: 0px
 
+</details>
+
 ### [OBSのDiscordアイコン外観変更ジェネレーター](https://obs-discord-icon.alfebelow.com/)
+
+<details>
+
+<summary>Tips for collapsed sections</summary>
 
 - アイコンの並び: 横並び
 - アイコンの間隔（上下）: 0
@@ -51,6 +61,8 @@
 - 表示されていないときにソースをシャットダウンする: true
 - シーンがアクティブになったときにブラウザの表示を更新する: true
 - ページ権限: OBSのステータス情報へのアクセス
+
+</details>
 
 ----------
 
