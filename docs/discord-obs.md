@@ -81,3 +81,88 @@ OBSに戻り、URLの少し下にあるカスタムCSSの入力欄に `6.` で�
 8. 作成完了
 ダイアログをOKで閉じて完了。OBSに話している人が表示されます。
 
+----------
+
+## サンプル
+
+<details>
+
+<summary>Tips for collapsed sections</summary>
+
+```css
+[class*="Voice_voiceStates__"] {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 32px;
+} 
+[class*="Voice_voiceState__"] {
+  height: auto;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+} 
+[class*="Voice_avatar__"] {
+  filter: brightness(70%);
+  margin-right: 0;
+} 
+[class*="Voice_avatarSpeaking__"] {
+  position: relative;
+  filter: brightness(100%);
+  border-color: #FFFFFF;
+  animation: 750ms infinite alternate ease-in-out speak-jump;
+  z-index: 1;
+  animation-duration: 351ms;
+} 
+[class*="Voice_name__"] {
+  left: 0px;
+  position: relative;
+  max-width: 56px;
+  box-sizing: border-box;
+  text-overflow: clip;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  text-align: center;
+  z-index: 2;
+} 
+[class*="Voice_user__"] {
+  padding-top: 0px;
+}
+[src*="avatars/533698325203910668/"], [src*="avatars/533698325203910668/"] + [class*="Voice_user_"]  {
+  /* shovel blue */
+  display: none;
+}
+[src*="avatars/600611976024162304/"], [src*="avatars/600611976024162304/"] + [class*="Voice_user_"]  {
+  /* shovel green */
+  display: none;
+}
+[src*="avatars/600611680711606284/"], [src*="avatars/600611680711606284/"] + [class*="Voice_user_"]  {
+  /* shovel red */
+  display: none;
+}
+
+@keyframes speak-jump {
+  0% {
+    bottom: 0px;
+  }
+  50% {
+    bottom: 10px;
+  }
+  100% {
+    bottom: 0px;
+  }
+}
+@keyframes speak-border {
+  0% {
+    filter: drop-shadow(2px 2px 0px #FFFFFF) drop-shadow(-2px -2px 0px #FFFFFF) drop-shadow(-2px 2px 0px #FFFFFF) drop-shadow(2px -2px 0px #FFFFFF);
+  }
+  50% {
+    filter: drop-shadow(2px 2px 0px #FFFFFF) drop-shadow(-2px -2px 0px #FFFFFF) drop-shadow(-2px 2px 0px #FFFFFF) drop-shadow(2px -2px 0px #FFFFFF);
+  }
+  100% {
+    filter: drop-shadow(2px 2px 0px #FFFFFF) drop-shadow(-2px -2px 0px #FFFFFF) drop-shadow(-2px 2px 0px #FFFFFF) drop-shadow(2px -2px 0px #FFFFFF);
+  }
+}
+```
+
+</details>
