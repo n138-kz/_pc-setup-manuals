@@ -31,7 +31,10 @@
   - Plugin: [Markdown All in One](https://qiita.com/eyuta/items/b1a53f3da8c5f8e7f41d)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://chigusa-web.com/clibor/download/)Clibor](https://www.vector.co.jp/download/file/winnt/util/fh767948.html)
 - [![](https://www.google.com/s2/favicons?size=64&domain=docker.com)Docker Desktop for Windows](https://docs.docker.com/desktop/install/windows-install/)
-- [![](https://www.google.com/s2/favicons?size=64&domain=https://spring-fragrance.mints.ne.jp/aviutl/)AviUtl](https://spring-fragrance.mints.ne.jp/aviutl/)
+<details>
+
+  <summary>- [![](https://www.google.com/s2/favicons?size=64&domain=https://spring-fragrance.mints.ne.jp/aviutl/)AviUtl](https://spring-fragrance.mints.ne.jp/aviutl/)</summary>
+
   - [AviUtl](https://spring-fragrance.mints.ne.jp/aviutl/aviutl110.zip)
   - [拡張編集Plugin](https://spring-fragrance.mints.ne.jp/aviutl/exedit92.zip)
   - [Plugin sample (aviutl.info)](https://aviutl.info/plugins/#toc2)
@@ -63,6 +66,9 @@
     - [前提: bridge.dll](https://github.com/oov/aviutl_bridge/releases)
   - [PSDToolKit](https://oov.github.io/aviutl_psdtoolkit/index.html)
     - [PSDToolKit](https://github.com/oov/aviutl_psdtoolkit/releases)
+
+</details>
+
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.gimp.org/)GIMP](https://www.gimp.org/downloads/) [windows store](https://apps.microsoft.com/detail/xpdm27w10192q0?launch=true&mode=full&hl=ja-jp&gl=jp&ocid=bingstartsearch)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.videolan.org/)Video LAN VLC Player](https://www.videolan.org/vlc/download-windows.html)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.xmedia-recode.de/en/)XMedia Recode](https://www.xmedia-recode.de/en/download.php)
