@@ -33,8 +33,9 @@
 - [![](https://www.google.com/s2/favicons?size=64&domain=docker.com)Docker Desktop for Windows](https://docs.docker.com/desktop/install/windows-install/)
 <details>
 
-  <summary>- [![](https://www.google.com/s2/favicons?size=64&domain=https://spring-fragrance.mints.ne.jp/aviutl/)AviUtl](https://spring-fragrance.mints.ne.jp/aviutl/)</summary>
+  <summary>AviUtl</summary>
 
+  - [![](https://www.google.com/s2/favicons?size=64&domain=https://spring-fragrance.mints.ne.jp/aviutl/)AviUtl](https://spring-fragrance.mints.ne.jp/aviutl/)
   - [AviUtl](https://spring-fragrance.mints.ne.jp/aviutl/aviutl110.zip)
   - [拡張編集Plugin](https://spring-fragrance.mints.ne.jp/aviutl/exedit92.zip)
   - [Plugin sample (aviutl.info)](https://aviutl.info/plugins/#toc2)
