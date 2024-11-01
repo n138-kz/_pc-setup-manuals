@@ -98,6 +98,7 @@
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://obsproject.com/)OBS Studio](https://obsproject.com/ja/download)
   - 通常は インストーラー を使用
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://store.steampowered.com/)STEAM](https://store.steampowered.com/about/)
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://hoyoplay.hoyoverse.com/)HoyoPlay](https://sg-public-api.hoyoverse.com/event/download_porter/trace/hyp_global/hyphoyoverse/default?url=https%3A%2F%2Fhoyoplay.hoyoverse.com%2F%3Flang%3Dja-jp)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://voicevox.hiroshiba.jp/)VOICEVOX](https://voicevox.hiroshiba.jp/)
   - 通常は GPU/CPUインストーラー を使用
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://aivoice.jp/)A.I.VOICE](https://aivoice.jp/member/storage/dl/editor/2.5.0/AIVoice2Editor.msi)
