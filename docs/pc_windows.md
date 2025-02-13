@@ -83,7 +83,7 @@
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://pay.line.me/)Line](https://pay.line.me/portal/jp/apps/line) [直リンク](https://desktop.line-scdn.net/win/new/LineInst.exe) [ms store](https://apps.microsoft.com/store/detail/XPFCC4CD725961?ocid=pdpshare)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://discord.com/)Discord](https://discord.com/) [直リンク](https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x64) [ms store](https://apps.microsoft.com/store/detail/XPDC2RH70K22MN?ocid=pdpshare)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.teamviewer.com/)Teamviewer](https://www.teamviewer.com/ja/download/windows/?utm_source=google&utm_medium=cpc&utm_campaign=jp%7Cb%7Cpr%7C23%7Cdec%7Ctv-core-brand-only-exact-sn%7Cnew%7Ct0%7C0&utm_content=Exact&utm_term=teamviewer)
-- [![](https://www.google.com/s2/favicons?size=64&domain=https://www.python.org/)Python3](https://www.python.org/downloads/) [ms store](https://www.microsoft.com/store/productId/9NRWMJP3717K?ocid=pdpshare)
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://www.python.org/)Python3](https://www.python.org/downloads/) [ms store](https://apps.microsoft.com/detail/9nrwmjp3717k?ocid=pdpshare&hl=ja-jp&gl=US)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://github.com)Github Desktop](https://central.github.com/deployments/desktop/desktop/latest/win32)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://ffmpeg.org/)ffmpeg](https://github.com/BtbN/FFmpeg-Builds/releases)
   - 通常は ffmpeg-master-latest-win64-gpl.zip を使用
