@@ -33,6 +33,7 @@
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://learn.microsoft.com)Microsoft Visual C++](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.virtualbox.org)Virtualbox](https://www.virtualbox.org/wiki/Downloads)
 - [![](https://www.google.com/s2/favicons?size=64&domain=docker.com)Docker Desktop for Windows](https://docs.docker.com/desktop/install/windows-install/)
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://www.gns3.com)GNS3](https://www.gns3.com/software/download)
 - [![](https://www.google.com/s2/favicons?size=64&domain=http://nagatsuki.la.coocan.jp/bunbackup/)BunBackup](https://forest.watch.impress.co.jp/library/software/bunbackup/) [直リンク](https://dforest.watch.impress.co.jp/library/b/bunbackup/11539/BunBackupS611.exe)
 
 <details>
