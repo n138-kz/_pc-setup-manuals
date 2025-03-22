@@ -1,16 +1,14 @@
-# [Discord StreamKit Overlay](discord-obs.md)
+# [discord-obs](discord-obs.md)
 
-- [OBSでDiscordのアイコンを四角や横並びにするジェネレーター](https://blog.alfebelow.com/entry/2022/03/20/obs-discord-icon)
+## Indexes
+
 - [Discord StreamKit Overlay](https://streamkit.discord.com/overlay)
 - [OBSのDiscordアイコン外観変更ジェネレーター](https://obs-discord-icon.alfebelow.com/)
+- [OBSでDiscordのアイコンを四角や横並びにするジェネレーター](https://blog.alfebelow.com/entry/2022/03/20/obs-discord-icon)
 
-## Parameters
-
-### [Discord StreamKit Overlay](https://streamkit.discord.com/overlay)
+## [Discord StreamKit Overlay](https://streamkit.discord.com/overlay)
 
 <details>
-
-<summary>Tips for collapsed sections</summary>
 
 - Show Speaking Users Only: false
 - Small Avatars: true
@@ -34,8 +32,6 @@
 ### [OBSのDiscordアイコン外観変更ジェネレーター](https://obs-discord-icon.alfebelow.com/)
 
 <details>
-
-<summary>Tips for collapsed sections</summary>
 
 - アイコンの並び: 横並び
 - アイコンの間隔（上下）: 0
@@ -69,8 +65,6 @@
 ## 導入方法
 
 <details>
-
-<summary>Tips for collapsed sections</summary>
 
 1. OBSのソースにブラウザを追加
 OBSを起動、OBSのシーンを選択後、「ソース」欄で右クリックしてブラウザを追加
