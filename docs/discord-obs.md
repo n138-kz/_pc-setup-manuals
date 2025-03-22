@@ -2,11 +2,14 @@
 
 ## Indexes
 
-- [Discord StreamKit Overlay](https://streamkit.discord.com/overlay)
-- [OBSのDiscordアイコン外観変更ジェネレーター](https://obs-discord-icon.alfebelow.com/)
-- [OBSでDiscordのアイコンを四角や横並びにするジェネレーター](https://blog.alfebelow.com/entry/2022/03/20/obs-discord-icon)
+- [Discord StreamKit Overlay](#discord-streamkit-overlay)
+- [OBSのDiscordアイコン外観変更ジェネレーター](#obsのdiscordアイコン外観変更ジェネレーター)
+- [OBSでDiscordのアイコンを四角や横並びにするジェネレーター](#obsでdiscordのアイコンを四角や横並びにするジェネレーター)
+- [OBS用デジタル時計](#OBS用デジタル時計)
 
 ## [Discord StreamKit Overlay](https://streamkit.discord.com/overlay)
+
+[Discord StreamKit Overlay](https://streamkit.discord.com/overlay)
 
 <details>
 
@@ -29,7 +32,9 @@
 
 </details>
 
-### [OBSのDiscordアイコン外観変更ジェネレーター](https://obs-discord-icon.alfebelow.com/)
+## [OBSのDiscordアイコン外観変更ジェネレーター](https://obs-discord-icon.alfebelow.com/)
+
+[OBSのDiscordアイコン外観変更ジェネレーター](https://obs-discord-icon.alfebelow.com/)
 
 <details>
 
@@ -60,7 +65,9 @@
 
 </details>
 
-### [OBSでDiscordのアイコンを四角や横並びにするジェネレーター](https://blog.alfebelow.com/entry/2022/03/20/obs-discord-icon)
+## [OBSでDiscordのアイコンを四角や横並びにするジェネレーター](https://blog.alfebelow.com/entry/2022/03/20/obs-discord-icon)
+
+[OBSでDiscordのアイコンを四角や横並びにするジェネレーター](https://blog.alfebelow.com/entry/2022/03/20/obs-discord-icon)
 
 <details>
     
@@ -170,5 +177,13 @@ OBSに戻り、URLの少し下にあるカスタムCSSの入力欄に `6.` で�
 ```
 
 </details>
+
+</details>
+
+## [OBS用デジタル時計](https://booth.pm/ja/items/2912843)
+
+<details>
+
+![](https://booth.pximg.net/400befd1-501f-42a8-b02f-073976818d5d/i/2912843/24fc8224-f246-4907-bcbe-2e8bbf5c617f_base_resized.jpg)
 
 </details>
