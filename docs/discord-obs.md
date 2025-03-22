@@ -60,12 +60,10 @@
 
 </details>
 
-----------
-
-## 導入方法
+### [OBSでDiscordのアイコンを四角や横並びにするジェネレーター](https://blog.alfebelow.com/entry/2022/03/20/obs-discord-icon)
 
 <details>
-
+    
 1. OBSのソースにブラウザを追加
 OBSを起動、OBSのシーンを選択後、「ソース」欄で右クリックしてブラウザを追加
 
@@ -91,15 +89,9 @@ OBSに戻り、URLの少し下にあるカスタムCSSの入力欄に `6.` で�
 8. 作成完了
 ダイアログをOKで閉じて完了。OBSに話している人が表示されます。
 
-</details>
-
-----------
-
-## サンプル
-
 <details>
 
-<summary>Tips for collapsed sections</summary>
+<summary>Sample CSS</summary>
 
 ```css
 [class*="Voice_voiceStates__"] {
@@ -176,5 +168,7 @@ OBSに戻り、URLの少し下にあるカスタムCSSの入力欄に `6.` で�
   }
 }
 ```
+
+</details>
 
 </details>
