@@ -6,6 +6,7 @@
     - [Win10](#win10)
       - [Windowsの時計に「秒」を表示する方法](#windowsの時計に秒を表示する方法)
         - [設定を元に戻す方法](#設定を元に戻す方法)
+      - [Windows10でファイルをドラッグ\&ドロップ出来ない?! を解決する方法](#windows10でファイルをドラッグドロップ出来ない-を解決する方法)
     - [win11](#win11)
       - [Windows 11の右クリックメニュー](#windows-11の右クリックメニュー)
         - [設定を元に戻す方法](#設定を元に戻す方法-1)
@@ -162,6 +163,26 @@ control inetcpl.cpl
 ```
 
 - [Windowsのコントロールパネルの各アイテムをコマンドラインから起動する @IT Tech TIPS](https://atmarkit.itmedia.co.jp/ait/articles/0507/02/news016.html)
+
+#### [Windows10でファイルをドラッグ&ドロップ出来ない?! を解決する方法](https://pasonal.com/windows10-drag-drop-error/)
+
+1. レジストリエディターより以下の場所を開きます。
+
+```reg
+コンピューター\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\EnableSecureUIAPaths
+```
+
+```reg
+reg query "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "EnableSecureUIAPaths"
+```
+
+```reg
+reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /f /v "EnableSecureUIAPaths" /t REG_DWORD /d 0
+```
+
+2. `System`キー内に`DWORD（32ビット）`値の［`EnableSecureUIAPaths`］が無い場合は作成します。
+3. `EnableSecureUIAPaths`をダブルクリックし［値のデータ］を【`0`】に変更します。
+4. 再度サインインまたはパソコンを再起動します。
 
 ### win11
 
