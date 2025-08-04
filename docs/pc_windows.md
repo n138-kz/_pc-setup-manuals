@@ -239,3 +239,5 @@ reg query "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-
 for /l %i in (1,1,9) do reg query "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\000%i" /v "MonitorModeEnabled" & for /l %i in (10,1,19) do reg query "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\00%i" /v "MonitorModeEnabled"
 for /l %i in (1,1,9) do reg query "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\000%i" /v "MonitorMode" & for /l %i in (10,1,19) do reg query "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\00%i" /v "MonitorMode"
 ```
+
+反映はPC再起動後
