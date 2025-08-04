@@ -212,3 +212,29 @@ reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InPr
 ```reg
 reg delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" /f
 ```
+
+#### [Wireshark + Intel NIC で tagVLAN の VLAN-ID を含めてキャプチャする方法](https://naga-sawa.hatenadiary.org/entry/20090510/1241949218)
+1. レジストリエディターより以下の場所を開きます。
+
+```reg
+コンピューター\HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\00xx
+```
+
+> [!NOTE]
+> `00xx` は 対応するNICのID  
+> 中を開いて、`DriverDesc`でドライバー名を確認して指定する。
+
+> ドライバが `e1g`, `e1e`, `e1y` の場合は → `MonitorModeEnabled=1`  
+> ドライバが `e1c`, `e1d`, `e1k`, `e1q`, `e1r`, `ixe`, `ixn`, `ixt` の場合は → `MonitorMode=1`  
+> を新規作成する。
+
+とあるが、`MonitorModeEnabled`, `MonitorMode` 設定しても支障無い<sup>(要出典)</sup>ため、両方設定する。
+
+```reg
+reg query "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\00xx" /v "MonitorModeEnabled"
+```
+
+```bat
+for /l %i in (1,1,9) do reg query "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\000%i" /v "MonitorModeEnabled" & for /l %i in (10,1,19) do reg query "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\00%i" /v "MonitorModeEnabled"
+for /l %i in (1,1,9) do reg query "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\000%i" /v "MonitorMode" & for /l %i in (10,1,19) do reg query "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\00%i" /v "MonitorMode"
+```
