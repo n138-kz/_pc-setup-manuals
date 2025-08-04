@@ -2,10 +2,13 @@
 
 ## Indexes
 
-- [Discord StreamKit Overlay](#discord-streamkit-overlay)
-- [OBSのDiscordアイコン外観変更ジェネレーター](#obsのdiscordアイコン外観変更ジェネレーター)
-- [OBSでDiscordのアイコンを四角や横並びにするジェネレーター](#obsでdiscordのアイコンを四角や横並びにするジェネレーター)
-- [OBS用デジタル時計](#OBS用デジタル時計)
+- [discord-obs](#discord-obs)
+  - [Indexes](#indexes)
+  - [Discord StreamKit Overlay](#discord-streamkit-overlay)
+  - [OBSのDiscordアイコン外観変更ジェネレーター](#obsのdiscordアイコン外観変更ジェネレーター)
+    - [Discord](#discord)
+  - [OBSでDiscordのアイコンを四角や横並びにするジェネレーター](#obsでdiscordのアイコンを四角や横並びにするジェネレーター)
+  - [OBS用デジタル時計](#obs用デジタル時計)
 
 ## [Discord StreamKit Overlay](https://streamkit.discord.com/overlay)
 
