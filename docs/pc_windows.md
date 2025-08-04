@@ -12,6 +12,8 @@
     - [win11](#win11)
       - [Windows 11の右クリックメニュー](#windows-11の右クリックメニュー)
         - [設定を元に戻す方法](#設定を元に戻す方法-1)
+      - [Wireshark + Intel NIC で tagVLAN の VLAN-ID を含めてキャプチャする方法](#wireshark--intel-nic-で-tagvlan-の-vlan-id-を含めてキャプチャする方法)
+        - [sample](#sample)
 
 ## Software
 
