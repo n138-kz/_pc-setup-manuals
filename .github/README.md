@@ -47,7 +47,7 @@
 
 ## Refs
 
-- [![](https://www.google.com/s2/favicons?size=64&domain=https://github.com)_DEFAULTREPOS](https://github.com/n138-kz/_DEFAULTREPOS/)
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://github.com)_pc-setup-manuals](https://github.com/n138-kz/_pc-setup-manuals)
 
 ## License
 
