@@ -240,4 +240,14 @@ for /l %i in (1,1,9) do reg query "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Contr
 for /l %i in (1,1,9) do reg query "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\000%i" /v "MonitorMode" & for /l %i in (10,1,19) do reg query "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\00%i" /v "MonitorMode"
 ```
 
+##### sample
+
+```reg
+reg add "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0001" /f /v "MonitorMode" /t REG_DWORD /d 1
+reg add "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0002" /f /v "MonitorMode" /t REG_DWORD /d 1
+reg add "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0003" /f /v "MonitorMode" /t REG_DWORD /d 1
+reg add "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0001" /f /v "MonitorModeEnabled" /t REG_DWORD /d 1
+reg add "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0002" /f /v "MonitorModeEnabled" /t REG_DWORD /d 1
+reg add "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0003" /f /v "MonitorModeEnabled" /t REG_DWORD /d 1
+```
 反映はPC再起動後
