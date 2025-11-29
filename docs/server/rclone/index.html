@@ -61,16 +61,17 @@
 <body>
     <table>
         <tr>
-            <th>name&gt;</th>
+            <th>name</th>
             <td><input type="text" name="rcloneconfig_name"></td>
         </tr>
         <tr>
             <th>storage</th>
-            <div name="rcloneconfig_storage">
-            </div>
+            <datalist id="rcloneconfig_storage_typelist"></datalist>
+            <td><input type="text" list="rcloneconfig_storage_typelist"></td>
             <script>
                 rcloneconfig_storage_typelist = (async () => {
                     rcloneconfig_storages = document.querySelectorAll('div[name="rcloneconfig_storage"]');
+                    rcloneconfig_storage_datalist = document.querySelector('#rcloneconfig_storage_typelist');
                     rcloneconfig_storage_typelist = [];
                     try {
                         rcloneconfig_storage_typelist = await fetch('rcloneconfig_storage_typelist.json',{
@@ -140,6 +141,12 @@
                         console.log(rcloneconfig_storage_typelist);
                     }
 
+                    rcloneconfig_storage_typelist.forEach(e=>{
+                        item = document.createElement('option');
+                        item.value = e.id;
+                        item.innerText = e.descr;
+                        rcloneconfig_storage_datalist.appendChild(item);
+                    });
                     rcloneconfig_storages.innerText = JSON.stringify(rcloneconfig_storage_typelist);
                 })();
             </script>
