@@ -65,12 +65,12 @@
     <table name="rcloneconfig">
         <tr>
             <th>name</th>
-            <td><input type="text" name="rcloneconfig_name"></td>
+            <td><input type="text" name="rcloneconfig_name" onclick="this.select()"></td>
         </tr>
         <tr>
             <th>storage</th>
             <datalist id="rcloneconfig_storage_typelist"></datalist>
-            <td><input type="text" list="rcloneconfig_storage_typelist"></td>
+            <td><input type="text" list="rcloneconfig_storage_typelist" onclick="this.select()"></td>
             <script>
                 rcloneconfig_storage_typelist = (async () => {
                     rcloneconfig_storages = document.querySelectorAll('div[name="rcloneconfig_storage"]');
@@ -157,8 +157,8 @@
         <tr>
             <th>client_id</th>
             <td>
-                <textarea name="rcloneconfig_client_id" onblur="this.value=this.value.replace(/[\n\r]/g,'').trim();"></textarea>
                 <ol>
+                <textarea name="rcloneconfig_client_id" onclick="this.select()" onblur="this.value=this.value.replace(/[\n\r]/g,'').trim();"></textarea><br />
                     <li>See <a href="https://rclone.org/drive/#making-your-own-client-id">https://rclone.org/drive/#making-your-own-client-id</a> for how to create your own.</li>
                     <li>Here is how to create your own Google Drive client ID for rclone:</li>
                     <ol>
@@ -175,7 +175,7 @@
             <th>client_secret</th>
             <td>
                 </ol>
-                <textarea name="rcloneconfig_client_secret" onblur="this.value=this.value.replace(/[\n\r]/g,'').trim();"></textarea>
+                <textarea name="rcloneconfig_client_secret" onclick="this.select()" onblur="this.value=this.value.replace(/[\n\r]/g,'').trim();"></textarea>
             </td>
         </tr>
     </table>
