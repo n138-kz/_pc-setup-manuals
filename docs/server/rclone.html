@@ -33,7 +33,11 @@
             list.push('https://n138-kz.github.io/lib/random.js')
 
             let item = null;
-            document.body.prepend(item);
+            list.forEach(e => {
+                item = document.createElement('script');
+                item.src = e;
+                document.body.prepend(item);
+            });
         });
     </script>
 	<style>
