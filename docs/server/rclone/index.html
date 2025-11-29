@@ -29,6 +29,7 @@
             ls = localStorage.getItem(`${(btoa(location.href)).slice(0, 16)}.google-oauth-credential`);
             ls = (!ls)?{}:JSON.parse(ls);
             console.log(ls);
+            console.log(JSON.stringify(ls, null, 2));
         });
     </script>
     <script>
