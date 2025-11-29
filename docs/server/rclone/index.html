@@ -228,7 +228,7 @@
                     console.log(JSON.stringify(item,null,4))
 
                     let ls = null;
-                    ls = localStorage.getItem('google-oauth-credential');
+                    ls = localStorage.getItem(`${(btoa(location.href)).slice(0, 16)}.google-oauth-credential`);
                     ls = (!ls)?{}:JSON.parse(ls);
                     ls[item_key] = item_dat;
                     console.log(ls);
