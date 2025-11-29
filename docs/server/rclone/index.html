@@ -212,15 +212,26 @@
         </script>
         <script>
             function addstore() {
-                if (document.querySelector(`[name='rcloneconfig_client_id']`).value!='') {
-                    let item = null;
+                let item = null;
+                let item_key = document.querySelector(`[name='rcloneconfig_client_id']`).value;
+                let item_dat = '';
+                if (item_key!='') {
                     item = {}
-                    item[document.querySelector(`[name='rcloneconfig_client_id']`).value] = {}
-                    item[document.querySelector(`[name='rcloneconfig_client_id']`).value]['secret'] = document.querySelector(`[name='rcloneconfig_client_secret']`).value
-                    item[document.querySelector(`[name='rcloneconfig_client_id']`).value]['description'] = ''
-                    item[document.querySelector(`[name='rcloneconfig_client_id']`).value]['user-accout'] = {}
-                    item[document.querySelector(`[name='rcloneconfig_client_id']`).value]['user-accout']['email'] = ''
+                    item_dat = {
+                        'secret': document.querySelector(`[name='rcloneconfig_client_secret']`).value,
+                        'description': null,
+                        'user-accout': {
+                            'email': null,
+                        },
+                    };
+                    item[item_key] = item_dat
                     console.log(JSON.stringify(item,null,4))
+
+                    let ls = null;
+                    ls = localStorage.getItem('google-oauth-credential');
+                    ls = (!ls)?{}:JSON.parse(ls);
+                    ls[item_key] = item_dat;
+                    console.log(ls);
                 } else {
                     console.warn(`client_id is empty.`);
                     return false;
