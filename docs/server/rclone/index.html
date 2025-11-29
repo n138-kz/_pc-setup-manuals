@@ -157,8 +157,9 @@
         <tr>
             <th>client_id</th>
             <td>
-                <ol>
                 <textarea name="rcloneconfig_client_id" onclick="this.select()" onblur="this.value=this.value.replace(/[\n\r]/g,'').trim();"></textarea><br />
+                <a href="#open" target="_self" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none';">gdrive&gt;</a>
+                <ol style="display: none;">
                     <li>See <a href="https://rclone.org/drive/#making-your-own-client-id">https://rclone.org/drive/#making-your-own-client-id</a> for how to create your own.</li>
                     <li>Here is how to create your own Google Drive client ID for rclone:</li>
                     <ol>
