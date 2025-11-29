@@ -69,7 +69,7 @@
             <td><select name="rcloneconfig_storage"></select></td>
             <script>
                 rcloneconfig_storages = document.querySelectorAll('select[name="rcloneconfig_storage"]');
-                rcloneconfig_storage = rcloneconfig_storage[0];
+                rcloneconfig_storage = rcloneconfig_storages[0];
                 rcloneconfig_storage_typelist = [
                     {descr:'1Fichier', id:'fichier',},
                     {descr:'Akamai NetStorage', id:'netstorage',},
@@ -121,7 +121,13 @@
                     {descr:'Zoho',id:'zoho',},
                     {descr:'premiumize.me',id:'premiumizeme',},
                     {descr:'seafile',id:'seafile',},
-                ]
+                ];
+                rcloneconfig_storage_typelist.forEach(e => {
+                    item = document.createElement('option');
+                    item.value = e.id;
+                    item.innerText = e.descr;
+                    rcloneconfig_storages[0].appendChild(item);
+                });
             </script>
         </tr>
     </table>
