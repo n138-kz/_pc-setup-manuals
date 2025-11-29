@@ -211,6 +211,23 @@
                 rcloneconfig[i].innerText = `${rcloneconfig[i].innerText}>`;
             });
         </script>
+        <script>
+            function addstore() {
+                if (document.querySelector(`[name='rcloneconfig_client_id']`).value!='') {
+                    let item = null;
+                    item = {}
+                    item[document.querySelector(`[name='rcloneconfig_client_id']`).value] = {}
+                    item[document.querySelector(`[name='rcloneconfig_client_id']`).value]['secret'] = document.querySelector(`[name='rcloneconfig_client_secret']`).value
+                    item[document.querySelector(`[name='rcloneconfig_client_id']`).value]['description'] = ''
+                    item[document.querySelector(`[name='rcloneconfig_client_id']`).value]['user-accout'] = {}
+                    item[document.querySelector(`[name='rcloneconfig_client_id']`).value]['user-accout']['email'] = ''
+                    console.log(JSON.stringify(item,null,4))
+                } else {
+                    console.warn(`client_id is empty.`);
+                    
+                }
+            }
+        </script>
     </table>
 </body>
 </html>
