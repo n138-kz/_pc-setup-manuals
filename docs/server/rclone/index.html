@@ -190,6 +190,13 @@
                 <textarea name="rcloneconfig_client_secret" onclick="this.select()" onblur="this.value=this.value.replace(/[\n\r]/g,'').trim();"></textarea>
             </td>
         </tr>
+        <script>
+            rcloneconfig = document.querySelectorAll('table[name="rcloneconfig"] th');
+            Array.from(rcloneconfig).map((e,i)=>{
+                console.log(e,i);
+                rcloneconfig[i].innerText = `${rcloneconfig[i].innerText}>`;
+            });
+        </script>
     </table>
 </body>
 </html>
