@@ -151,6 +151,7 @@
         <tr>
             <th>client_id</th>
             <td>
+                <textarea name="rcloneconfig_client_id" onblur="this.value=this.value.replace(/[\n\r]/g,'').trim();"></textarea>
                 <ol>
                     <li>See <a href="https://rclone.org/drive/#making-your-own-client-id">https://rclone.org/drive/#making-your-own-client-id</a> for how to create your own.</li>
                     <li>Here is how to create your own Google Drive client ID for rclone:</li>
@@ -162,7 +163,6 @@
                         <li>「Oauth 同意画面」をすでに設定している場合は、次の手順に進みます。設定していない場合は、「同意画面の設定」ボタン (右パネルの右上隅付近) をクリックし、「開始」をクリックします。次の画面で、「アプリケーション名」（「rclone」でも OK）を入力します。「ユーザー サポート メール」（自分のメールでも OK）を入力します。次に、Audience で「外部」を選択します。次に、ご自身の連絡先情報を入力し、利用規約に同意して「作成」をクリックします。画面左上のボックスにrclone（またはプロジェクト名）が表示されます。</li>
                     </ol>
                 </ol>
-                <textarea name="rcloneconfig_client_id" onblur="this.value=this.value.replace(/[\n\r]/g,'').trim();"></textarea>
             </td>
         </tr>
     </table>
