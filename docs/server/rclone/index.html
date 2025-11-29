@@ -25,6 +25,14 @@
     </script>
     <script>
         window.addEventListener('DOMContentLoaded', (e)=>{
+            let ls = null;
+            ls = localStorage.getItem(`${(btoa(location.href)).slice(0, 16)}.google-oauth-credential`);
+            ls = (!ls)?{}:JSON.parse(ls);
+            console.log(ls);
+        });
+    </script>
+    <script>
+        window.addEventListener('DOMContentLoaded', (e)=>{
             list=[];
             list.push('https://code.jquery.com/jquery-3.7.1.min.js')
             list.push('https://accounts.google.com/gsi/client')
