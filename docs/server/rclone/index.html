@@ -232,6 +232,7 @@
                     ls = (!ls)?{}:JSON.parse(ls);
                     ls[item_key] = item_dat;
                     console.log(ls);
+                    localStorage.setItem(`${(btoa(location.href)).slice(0, 16)}.google-oauth-credential`, JSON.stringify(ls));
                 } else {
                     console.warn(`client_id is empty.`);
                     return false;
