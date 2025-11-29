@@ -66,10 +66,13 @@
         </tr>
         <tr>
             <th>Storage</th>
-            <td><select name="rcloneconfig_storage"></select></td>
+            <div style="height: 100px;display: grid;">
+                <table name="rcloneconfig_storage" border="1"> 
+                    <tr></tr>
+                </table>
+            </div>
             <script>
-                rcloneconfig_storages = document.querySelectorAll('select[name="rcloneconfig_storage"]');
-                rcloneconfig_storage = rcloneconfig_storages[0];
+                rcloneconfig_storages = document.querySelectorAll('table[name="rcloneconfig_storage"]');
                 rcloneconfig_storage_typelist = [
                     {descr:'1Fichier', id:'fichier',},
                     {descr:'Akamai NetStorage', id:'netstorage',},
@@ -123,10 +126,30 @@
                     {descr:'seafile',id:'seafile',},
                 ];
                 rcloneconfig_storage_typelist.forEach(e => {
-                    item = document.createElement('option');
+                    parent_item1 = document.createElement('tr');
+
+                    parent_item2 = document.createElement('td');
+                    item = document.createElement('input');
+                    item.type = 'radio';
                     item.value = e.id;
-                    item.innerText = e.descr;
-                    rcloneconfig_storages[0].appendChild(item);
+                    //item.innerText = e.descr;
+                    parent_item2.appendChild(item)
+                    parent_item1.appendChild(parent_item2)
+
+                    parent_item2 = document.createElement('td');
+                    parent_item3 = document.createElement('code');
+                    item = document.createTextNode(`${e.id}`)
+                    parent_item3.appendChild(item)
+                    parent_item2.appendChild(parent_item3)
+                    parent_item1.appendChild(parent_item2)
+
+                    parent_item2 = document.createElement('td');
+                    parent_item2.style.maxWidth = '50%';
+                    item = document.createTextNode(`${e.descr}`)
+                    parent_item2.appendChild(item)
+                    parent_item1.appendChild(parent_item2)
+
+                    rcloneconfig_storages[0].appendChild(parent_item1);
                 });
             </script>
         </tr>
