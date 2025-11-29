@@ -36,7 +36,7 @@
             list.forEach(e => {
                 item = document.createElement('script');
                 item.src = e;
-                document.body.prepend(item);
+                document.head.appendChild(item);
             });
         });
     </script>
