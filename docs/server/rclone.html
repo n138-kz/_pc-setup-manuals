@@ -66,13 +66,10 @@
         </tr>
         <tr>
             <th>Storage</th>
-            <div style="height: 100px;display: grid;">
-                <table name="rcloneconfig_storage" border="1"> 
-                    <tr></tr>
-                </table>
+            <div style="height: 100px;display: grid;" name="rcloneconfig_storage">
             </div>
             <script>
-                rcloneconfig_storages = document.querySelectorAll('table[name="rcloneconfig_storage"]');
+                rcloneconfig_storages = document.querySelectorAll('div[name="rcloneconfig_storage"]');
                 rcloneconfig_storage_typelist = [
                     {descr:'1Fichier', id:'fichier',},
                     {descr:'Akamai NetStorage', id:'netstorage',},
@@ -125,6 +122,11 @@
                     {descr:'premiumize.me',id:'premiumizeme',},
                     {descr:'seafile',id:'seafile',},
                 ];
+                let blob = null;
+                blob = new Blob([JSON.stringify(rcloneconfig_storage_typelist,null,2)],{
+                    type:'application/json', 
+                });
+                console.log(blob);
                 rcloneconfig_storage_typelist.forEach(e => {
                     parent_item1 = document.createElement('tr');
 
