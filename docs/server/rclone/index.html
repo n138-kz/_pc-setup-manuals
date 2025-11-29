@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<base target="_blank">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rclone config build</title>
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<meta http-equiv="Expires" content="0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="referrer" content="no-referrer" />
+	<meta http-equiv="refresh" content="300">
+	<link rel="stylesheet" type="text/css" href="https://n138-kz.github.io/lib/master.css?t=0" />
+	<script src="https://n138-kz.github.io/lib/master.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', (e)=>{
+            console.log(`init.`)
+            console.log(`page-title: ${document.title}`);
+            let item = null;
+            item = document.createElement('h1');
+            item.innerText = document.title;
+            document.body.prepend(item);
+        });
+    </script>
+    <script>
+        window.addEventListener('DOMContentLoaded', (e)=>{
+            let ls = null;
+            ls = localStorage.getItem(`${(btoa(location.href)).slice(0, 16)}.google-oauth-credential`);
+            ls = (!ls)?{}:JSON.parse(ls);
+            console.log(ls);
+            console.log(JSON.stringify(ls, null, 2));
+        });
+    </script>
+    <script>
+        window.addEventListener('DOMContentLoaded', (e)=>{
+            list=[];
+            list.push('https://code.jquery.com/jquery-3.7.1.min.js')
+            list.push('https://accounts.google.com/gsi/client')
+            list.push('https://www.google.com/recaptcha/api.js?render=6LfCHdcUAAAAAOwkHsW_7W7MfoOrvoIw9CXdLRBA')
+            list.push('https://n138-kz.github.io/lib/grecaptcha.js')
+            list.push('https://n138-kz.github.io/lib/random.js')
+
+            let item = null;
+            list.forEach(e => {
+                item = document.createElement('script');
+                item.src = e;
+                document.head.appendChild(item);
+            });
+        });
+    </script>
+	<style>
+		h1, h2, h3, h4, h5, h6 {
+			font-family: "Uzura font";
+		}
+		code {
+			font-family: "Myrica font", monospace;
+		}
+		footer {
+			font-family: "Azuki font";
+		}
+		footer span {
+			display: inline-flex;
+		}
+	</style>
+</head>
+<body>
+    <style>
+        table[name="rcloneconfig"] th {
+            text-align: left;
+        }
+        table[name="rcloneconfig"] td>input {
+            width: 20em;
+        }
+        table[name="rcloneconfig"] td>textarea {
+            width: 50em;
+        }
+    </style>
+    <table name="rcloneconfig">
+        <tr>
+            <th>name</th>
+            <td><input type="text" name="rcloneconfig_name" onclick="this.select()"></td>
+        </tr>
+        <tr>
+            <th>storage</th>
+            <datalist id="rcloneconfig_storage_typelist"></datalist>
+            <td><input type="text" list="rcloneconfig_storage_typelist" onclick="this.select()"></td>
+            <script>
+                rcloneconfig_storage_typelist = (async () => {
+                    rcloneconfig_storages = document.querySelectorAll('div[name="rcloneconfig_storage"]');
+                    rcloneconfig_storage_datalist = document.querySelector('#rcloneconfig_storage_typelist');
+                    rcloneconfig_storage_typelist = [];
+                    try {
+                        rcloneconfig_storage_typelist = await fetch('rcloneconfig_storage_typelist.json',{
+                            mode: 'cors',
+                            method: 'get',
+                        });
+                    } catch (error) {
+                        rcloneconfig_storage_typelist = [
+                            {descr:'1Fichier', id:'fichier',},
+                            {descr:'Akamai NetStorage', id:'netstorage',},
+                            {descr:'Alias for an existing remote', id:'alias',},
+                            {descr:'Amazon Drive', id:'amazon cloud drive',},
+                            {descr:'Amazon S3 Compliant Storage Providers including AWS, Alibaba, Ceph, China Mobile, Cloudflare, ArvanCloud, DigitalOcean, Dreamhost, Huawei OBS, IBM COS, IDrive e2, IONOS Cloud, Liara, Lyve Cloud, Minio, Netease, RackCorp, Scaleway, SeaweedFS, StackPath, Storj, Tencent COS, Qiniu and Wasabi', id:'s3',},
+                            {descr:'Backblaze B2',id:'b2',},
+                            {descr:'Better checksums for other remotes',id:'hasher',},
+                            {descr:'Box',id:'box',},
+                            {descr:'Cache a remote',id:'cache',},
+                            {descr:'Citrix Sharefile',id:'sharefile',},
+                            {descr:'Combine several remotes into one',id:'combine',},
+                            {descr:'Compress a remote',id:'compress',},
+                            {descr:'Dropbox',id:'dropbox',},
+                            {descr:'Encrypt/Decrypt a remote',id:'crypt',},
+                            {descr:'Enterprise File Fabric',id:'filefabric',},
+                            {descr:'FTP',id:'ftp',},
+                            {descr:'Google Cloud Storage (this is not Google Drive)',id:'google cloud storage',},
+                            {descr:'Google Drive',id:'drive',},
+                            {descr:'Google Photos',id:'google photos',},
+                            {descr:'HTTP',id:'http',},
+                            {descr:'Hadoop distributed file system',id:'hdfs',},
+                            {descr:'HiDrive',id:'hidrive',},
+                            {descr:'In memory object storage system.',id:'memory',},
+                            {descr:'Internet Archive',id:'internetarchive',},
+                            {descr:'Jottacloud',id:'jottacloud',},
+                            {descr:'Koofr, Digi Storage and other Koofr-compatible storage providers',id:'koofr',},
+                            {descr:'Local Disk',id:'local',},
+                            {descr:'Mail.ru Cloud',id:'mailru',},
+                            {descr:'Mega',id:'mega',},
+                            {descr:'Microsoft Azure Blob Storage',id:'azureblob',},
+                            {descr:'Microsoft OneDrive',id:'onedrive',},
+                            {descr:'OpenDrive',id:'opendrive',},
+                            {descr:'OpenStack Swift (Rackspace Cloud Files, Memset Memstore, OVH)',id:'swift',},
+                            {descr:'Oracle Cloud Infrastructure Object Storage',id:'oracleobjectstorage',},
+                            {descr:'Pcloud',id:'pcloud',},
+                            {descr:'Put.io',id:'putio',},
+                            {descr:'QingCloud Object Storage',id:'qingstor',},
+                            {descr:'SMB / CIFS',id:'smb',},
+                            {descr:'SSH/SFTP',id:'sftp',},
+                            {descr:'Sia Decentralized Cloud',id:'sia',},
+                            {descr:'Storj Decentralized Cloud Storage',id:'storj',},
+                            {descr:'Sugarsync',id:'sugarsync',},
+                            {descr:'Transparently chunk/split large files',id:'chunker',},
+                            {descr:'Union merges the contents of several upstream fs',id:'union',},
+                            {descr:'Uptobox',id:'uptobox',},
+                            {descr:'WebDAV',id:'webdav',},
+                            {descr:'Yandex Disk',id:'yandex',},
+                            {descr:'Zoho',id:'zoho',},
+                            {descr:'premiumize.me',id:'premiumizeme',},
+                            {descr:'seafile',id:'seafile',},
+                        ];
+                        let blob = null;
+                        blob = new Blob([JSON.stringify(rcloneconfig_storage_typelist,null,2)],{
+                            type:'application/json',
+                        });
+                        const url = URL.createObjectURL(blob);
+                        console.log([url, blob]);
+                    } finally {
+                        console.log(rcloneconfig_storage_typelist);
+                    }
+
+                    rcloneconfig_storage_typelist.forEach(e=>{
+                        item = document.createElement('option');
+                        item.value = e.id;
+                        item.innerText = e.descr;
+                        rcloneconfig_storage_datalist.appendChild(item);
+                    });
+                    rcloneconfig_storages.innerText = JSON.stringify(rcloneconfig_storage_typelist);
+                })();
+            </script>
+        </tr>
+        <tr>
+            <th>client_id</th>
+            <td>
+                <textarea name="rcloneconfig_client_id" onclick="this.select()" onblur="this.value=this.value.replace(/[\n\r]/g,'').trim(); addstore();"></textarea><br />
+                <a href="#open" target="_self" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none';">gdrive&gt;</a>
+                <ol style="display: none;">
+                    <li>See <a href="https://rclone.org/drive/#making-your-own-client-id">https://rclone.org/drive/#making-your-own-client-id</a> for how to create your own.</li>
+                    <li>Here is how to create your own Google Drive client ID for rclone:</li>
+                    <ol>
+                        <li>Google アカウントで <a href="https://console.developers.google.com/">Google API Console</a> にログインしてください。使用する Google アカウントは何でも構いません（アクセスする Google ドライブと同じアカウントである必要はありません）。プロジェクトを選択するか、新しいプロジェクトを作成します。</li>
+                        <li>プロジェクトを選択するか、新しいプロジェクトを作成します。</li>
+                        <li>「API とサービスを有効にする」の下で「Drive」を検索し、「Google Drive API」を有効にします。</li>
+                        <li>左側のパネルで「資格情報」をクリックします（ウィザードを開く「資格情報の作成」ではありません）。</li>
+                        <li>「Oauth 同意画面」をすでに設定している場合は、次の手順に進みます。設定していない場合は、「同意画面の設定」ボタン (右パネルの右上隅付近) をクリックし、「開始」をクリックします。次の画面で、「アプリケーション名」（「rclone」でも OK）を入力します。「ユーザー サポート メール」（自分のメールでも OK）を入力します。次に、Audience で「外部」を選択します。次に、ご自身の連絡先情報を入力し、利用規約に同意して「作成」をクリックします。画面左上のボックスにrclone（またはプロジェクト名）が表示されます。</li>
+                    </ol>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <th>client_secret</th>
+            <td>
+                <textarea name="rcloneconfig_client_secret" onclick="this.select()" onblur="this.value=this.value.replace(/[\n\r]/g,'').trim(); addstore();"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <th>scope</th>
+            <datalist id="rcloneconfig_scopelist"></datalist>
+            <td><input type="text" list="rcloneconfig_scopelist" onclick="this.select()"></td>
+            <script>
+                rcloneconfig_scope_datalist = document.querySelector('#rcloneconfig_scopelist');
+                rcloneconfig_scope_typelist = [
+                    {descr:'Full access all files, excluding Application Data Folder.',id:'drive',},
+                    {descr:'Read-only access to file metadata and file contents.', id:'drive.readonly',},
+                    {descr:'Access to files created by rclone only. These are visible in the drive website. File authorization is revoked when the user deauthorizes the app.', id:'drive.file',},
+                    {descr:'Allows read and write access to the Application Data folder. This is not visible in the drive website.', id:'drive.appfolder',},
+                    {descr:'Allows read-only access to file metadata but does not allow any access to read or download file content.', id:'drive.metadata.readonly',},
+                ];
+                rcloneconfig_scope_typelist.forEach(e=>{
+                    item = document.createElement('option');
+                    item.value = e.id;
+                    item.innerText = e.descr;
+                    rcloneconfig_scope_datalist.appendChild(item);
+                });
+            </script>
+        </tr>
+        <script>
+            rcloneconfig = document.querySelectorAll('table[name="rcloneconfig"] th');
+            Array.from(rcloneconfig).map((e,i)=>{
+                rcloneconfig[i].innerText = `${rcloneconfig[i].innerText}>`;
+            });
+        </script>
+        <script>
+            function addstore() {
+                let item = null;
+                let item_key = document.querySelector(`[name='rcloneconfig_client_id']`).value;
+                let item_dat = '';
+                if (item_key!='') {
+                    item = {}
+                    item_dat = {
+                        'secret': document.querySelector(`[name='rcloneconfig_client_secret']`).value,
+                        'description': null,
+                        'user-accout': {
+                            'email': null,
+                        },
+                    };
+                    item[item_key] = item_dat
+                    console.log(JSON.stringify(item,null,4))
+
+                    let ls = null;
+                    ls = localStorage.getItem(`${(btoa(location.href)).slice(0, 16)}.google-oauth-credential`);
+                    ls = (!ls)?{}:JSON.parse(ls);
+                    ls[item_key] = item_dat;
+                    console.log(ls);
+                    localStorage.setItem(`${(btoa(location.href)).slice(0, 16)}.google-oauth-credential`, JSON.stringify(ls));
+                } else {
+                    console.warn(`client_id is empty.`);
+                    return false;
+                }
+            }
+        </script>
+    </table>
+    <div>
+        <a href="https://github.com/n138-kz/_pc-setup-manuals">
+            <img alt="GitHub Extra Pins" src="https://github-readme-stats.vercel.app/api/pin/?locale=ja&username=n138-kz&repo=_pc-setup-manuals&show_owner=true&theme=graywhite" onerror="console.log(this.src='https://github.com/SAWARATSUKI/KawaiiLogos/blob/main/ResponseCode/404%20NotFound.png?raw=true')">
+        </a>
+    </div>
+    <div>
+        <script language="javascript" src="//ad.jp.ap.valuecommerce.com/servlet/jsbanner?sid=3755829&pid=892200357"></script><noscript><a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3755829&pid=892200357" rel="nofollow"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3755829&pid=892200357" border="0"></a></noscript>
+    </div>
+</body>
+</html>

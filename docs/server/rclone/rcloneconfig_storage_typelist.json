@@ -1,0 +1,202 @@
+[
+  {
+    "descr": "1Fichier",
+    "id": "fichier"
+  },
+  {
+    "descr": "Akamai NetStorage",
+    "id": "netstorage"
+  },
+  {
+    "descr": "Alias for an existing remote",
+    "id": "alias"
+  },
+  {
+    "descr": "Amazon Drive",
+    "id": "amazon cloud drive"
+  },
+  {
+    "descr": "Amazon S3 Compliant Storage Providers including AWS, Alibaba, Ceph, China Mobile, Cloudflare, ArvanCloud, DigitalOcean, Dreamhost, Huawei OBS, IBM COS, IDrive e2, IONOS Cloud, Liara, Lyve Cloud, Minio, Netease, RackCorp, Scaleway, SeaweedFS, StackPath, Storj, Tencent COS, Qiniu and Wasabi",
+    "id": "s3"
+  },
+  {
+    "descr": "Backblaze B2",
+    "id": "b2"
+  },
+  {
+    "descr": "Better checksums for other remotes",
+    "id": "hasher"
+  },
+  {
+    "descr": "Box",
+    "id": "box"
+  },
+  {
+    "descr": "Cache a remote",
+    "id": "cache"
+  },
+  {
+    "descr": "Citrix Sharefile",
+    "id": "sharefile"
+  },
+  {
+    "descr": "Combine several remotes into one",
+    "id": "combine"
+  },
+  {
+    "descr": "Compress a remote",
+    "id": "compress"
+  },
+  {
+    "descr": "Dropbox",
+    "id": "dropbox"
+  },
+  {
+    "descr": "Encrypt/Decrypt a remote",
+    "id": "crypt"
+  },
+  {
+    "descr": "Enterprise File Fabric",
+    "id": "filefabric"
+  },
+  {
+    "descr": "FTP",
+    "id": "ftp"
+  },
+  {
+    "descr": "Google Cloud Storage (this is not Google Drive)",
+    "id": "google cloud storage"
+  },
+  {
+    "descr": "Google Drive",
+    "id": "drive"
+  },
+  {
+    "descr": "Google Photos",
+    "id": "google photos"
+  },
+  {
+    "descr": "HTTP",
+    "id": "http"
+  },
+  {
+    "descr": "Hadoop distributed file system",
+    "id": "hdfs"
+  },
+  {
+    "descr": "HiDrive",
+    "id": "hidrive"
+  },
+  {
+    "descr": "In memory object storage system.",
+    "id": "memory"
+  },
+  {
+    "descr": "Internet Archive",
+    "id": "internetarchive"
+  },
+  {
+    "descr": "Jottacloud",
+    "id": "jottacloud"
+  },
+  {
+    "descr": "Koofr, Digi Storage and other Koofr-compatible storage providers",
+    "id": "koofr"
+  },
+  {
+    "descr": "Local Disk",
+    "id": "local"
+  },
+  {
+    "descr": "Mail.ru Cloud",
+    "id": "mailru"
+  },
+  {
+    "descr": "Mega",
+    "id": "mega"
+  },
+  {
+    "descr": "Microsoft Azure Blob Storage",
+    "id": "azureblob"
+  },
+  {
+    "descr": "Microsoft OneDrive",
+    "id": "onedrive"
+  },
+  {
+    "descr": "OpenDrive",
+    "id": "opendrive"
+  },
+  {
+    "descr": "OpenStack Swift (Rackspace Cloud Files, Memset Memstore, OVH)",
+    "id": "swift"
+  },
+  {
+    "descr": "Oracle Cloud Infrastructure Object Storage",
+    "id": "oracleobjectstorage"
+  },
+  {
+    "descr": "Pcloud",
+    "id": "pcloud"
+  },
+  {
+    "descr": "Put.io",
+    "id": "putio"
+  },
+  {
+    "descr": "QingCloud Object Storage",
+    "id": "qingstor"
+  },
+  {
+    "descr": "SMB / CIFS",
+    "id": "smb"
+  },
+  {
+    "descr": "SSH/SFTP",
+    "id": "sftp"
+  },
+  {
+    "descr": "Sia Decentralized Cloud",
+    "id": "sia"
+  },
+  {
+    "descr": "Storj Decentralized Cloud Storage",
+    "id": "storj"
+  },
+  {
+    "descr": "Sugarsync",
+    "id": "sugarsync"
+  },
+  {
+    "descr": "Transparently chunk/split large files",
+    "id": "chunker"
+  },
+  {
+    "descr": "Union merges the contents of several upstream fs",
+    "id": "union"
+  },
+  {
+    "descr": "Uptobox",
+    "id": "uptobox"
+  },
+  {
+    "descr": "WebDAV",
+    "id": "webdav"
+  },
+  {
+    "descr": "Yandex Disk",
+    "id": "yandex"
+  },
+  {
+    "descr": "Zoho",
+    "id": "zoho"
+  },
+  {
+    "descr": "premiumize.me",
+    "id": "premiumizeme"
+  },
+  {
+    "descr": "seafile",
+    "id": "seafile"
+  }
+]
