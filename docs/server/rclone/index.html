@@ -185,10 +185,24 @@
         </tr>
         <tr>
             <th>scope</th>
-            <td>
-                </ol>
-                <textarea name="rcloneconfig_client_secret" onclick="this.select()" onblur="this.value=this.value.replace(/[\n\r]/g,'').trim();"></textarea>
-            </td>
+            <datalist id="rcloneconfig_scopelist"></datalist>
+            <td><input type="text" list="rcloneconfig_scopelist" onclick="this.select()"></td>
+            <script>
+                rcloneconfig_scope_datalist = document.querySelector('#rcloneconfig_scopelist');
+                rcloneconfig_scope_typelist = [
+                    {descr:'Full access all files, excluding Application Data Folder.',id:'drive',},
+                    {descr:'Read-only access to file metadata and file contents.', id:'drive.readonly',},
+                    {descr:'Access to files created by rclone only. These are visible in the drive website. File authorization is revoked when the user deauthorizes the app.', id:'drive.file',},
+                    {descr:'Allows read and write access to the Application Data folder. This is not visible in the drive website.', id:'drive.appfolder',},
+                    {descr:'Allows read-only access to file metadata but does not allow any access to read or download file content.', id:'drive.metadata.readonly',},
+                ];
+                rcloneconfig_scope_typelist.forEach(e=>{
+                    item = document.createElement('option');
+                    item.value = e.id;
+                    item.innerText = e.descr;
+                    rcloneconfig_scope_datalist.appendChild(item);
+                });
+            </script>
         </tr>
         <script>
             rcloneconfig = document.querySelectorAll('table[name="rcloneconfig"] th');
