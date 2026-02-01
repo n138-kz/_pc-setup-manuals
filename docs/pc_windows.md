@@ -145,9 +145,9 @@
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://github.com)Github Desktop](https://central.github.com/deployments/desktop/desktop/latest/win32)
 
-- [![](https://www.google.com/s2/favicons?size=64&domain=https://www.google.com/chrome/)Google Chrome](https://www.google.com/chrome)
+- [![](<img style="height:16px;width:16px" src="https://www.google.com/chrome/static/images/chrome-logo-m100.svg">)Google Chrome](https://www.google.com/chrome)
 
-- [![](https://www.google.com/s2/favicons?size=64&domain=https://www.google.com/intl/ja_jp/drive/download/)Google Drive](https://dl.google.com/drive-file-stream/GoogleDriveSetup.exe)
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://drive.google.com/drive/u/0/my-drive)Google Drive](https://dl.google.com/drive-file-stream/GoogleDriveSetup.exe)
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://tools.google.com/dlpage/japaneseinput/eula.html?platform=win)Google IME](https://tools.google.com/dlpage/japaneseinput/eula.html?platform=win)
 
