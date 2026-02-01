@@ -18,6 +18,7 @@
 ## Software
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://7-zip.opensource.jp/download.html)7-Zip](https://7-zip.opensource.jp/download.html)
+
   - 通常は exeタイプのインストーラー を使用
 
   - [![](https://www.google.com/s2/favicons?size=64&domain=https://aivoice.jp/)A.I.VOICE](https://aivoice.jp/member/storage/dl/editor/2.5.0/AIVoice2Editor.msi)
