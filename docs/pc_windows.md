@@ -17,30 +17,38 @@
 
 ## Software
 
-- [![](https://www.google.com/s2/favicons?size=64&domain=https://www.nvidia.com/ja-jp/)nvidia geforce drivers](https://www.nvidia.com/ja-jp/geforce/drivers/)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://7-zip.opensource.jp/download.html)7-Zip](https://7-zip.opensource.jp/download.html)
   - 通常は exeタイプのインストーラー を使用
-- [![](https://www.google.com/s2/favicons?size=64&domain=https://www.google.com/chrome/)Google chrome](https://www.google.com/chrome)
-- [![](https://www.google.com/s2/favicons?size=64&domain=https://tools.google.com/dlpage/japaneseinput/eula.html?platform=win)Google IME](https://tools.google.com/dlpage/japaneseinput/eula.html?platform=win)
-- [![](https://www.google.com/s2/favicons?size=64&domain=https://www.google.com/intl/ja_jp/drive/download/)Google Drive](https://dl.google.com/drive-file-stream/GoogleDriveSetup.exe)
-- [![](https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.kingjim.co.jp/&size=16)TEPRA Label Editor SPC10](https://www.kingjim.co.jp/download/tepra/labeleditor.html?open=tab-02&move=anc-01)
-  - [キングジム テプラPRO モノクロ SR5900P](https://www.kingjim.co.jp/download/tepra/sr5900p/)([直リンク](https://www.kingjim.co.jp/resource-files/download/tepra/SPC10_306.zip)) を使用中 (購入元:[amazon](https://amzn.to/3QNRPH8))
-- [![](https://www.google.com/s2/favicons?size=64&domain=https://sakura-editor.github.io/)Sakura Editor](https://github.com/sakura-editor/sakura/releases)
-  - 通常は インストーラー を使用
-- [![](https://www.google.com/s2/favicons?size=64&domain=https://winmerge.org/?lang=ja)WinMerge](https://winmerge.org/downloads/?lang=ja)
-  - 通常は インストーラー `WinMerge-x.xx.xx.x-x64-Setup.exe` を使用
-- [![](https://www.google.com/s2/favicons?size=64&domain=https://teratermproject.github.io/)TeraTerm](https://github.com/TeraTermProject/teraterm/releases)
-  - 通常は zip を使用
-- [![](https://www.google.com/s2/favicons?size=64&domain=https://code.visualstudio.com/)VS Code](https://code.visualstudio.com/)
-  - 通常は User Installer を使用
-  - Plugin: [Markdown All in One](https://qiita.com/eyuta/items/b1a53f3da8c5f8e7f41d)
-- [![](https://www.google.com/s2/favicons?size=64&domain=https://chigusa-web.com/clibor/download/)Clibor](https://www.vector.co.jp/download/file/winnt/util/fh767948.html)
-- [![](https://www.google.com/s2/favicons?size=64&domain=https://learn.microsoft.com)Microsoft Visual C++](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
-- [![](https://www.google.com/s2/favicons?size=64&domain=https://www.virtualbox.org)Virtualbox](https://www.virtualbox.org/wiki/Downloads)
-- [![](https://www.google.com/s2/favicons?size=64&domain=docker.com)Docker Desktop for Windows](https://docs.docker.com/desktop/install/windows-install/)
-- [![](https://www.google.com/s2/favicons?size=64&domain=https://www.gns3.com)GNS3](https://www.gns3.com/software/download)
-- [![](https://www.google.com/s2/favicons?size=64&domain=http://nagatsuki.la.coocan.jp/bunbackup/)BunBackup](https://forest.watch.impress.co.jp/library/software/bunbackup/) [直リンク](https://dforest.watch.impress.co.jp/library/b/bunbackup/11539/BunBackupS611.exe)
-- [![](https://www.google.com/s2/favicons?size=64&domain=https://soomfon.com)Stream Controller SOOMFON](https://soomfon.com/pages/support)
+
+  - [![](https://www.google.com/s2/favicons?size=64&domain=https://aivoice.jp/)A.I.VOICE](https://aivoice.jp/member/storage/dl/editor/2.5.0/AIVoice2Editor.msi)
+
+  <details>
+
+    <summary>追加プラグイン</summary>
+
+    - [A.I.VOICE 琴葉 茜・葵](https://aivoice.jp/member/downloads/all-in-one/kotonoha)
+
+  </details>
+
+  - [![](https://www.google.com/s2/favicons?size=64&domain=https://aivoice.jp/)A.I.VOICE2](https://aivoice.jp/member/storage/dl/editor/1.4.9/AIVoiceEditor.msi)
+
+  <details>
+
+    <summary>追加プラグイン</summary>
+
+    - [A.I.VOICE2 紲星 あかり](https://aivoice.jp/member/mydownloads/character/KizunaAkari#aivoice2)
+
+  </details>
+
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://www.ah-soft.com/voiceroid/ai/)AHS VOICEROID+](https://www.ah-soft.com/mypage/)
+
+  <details>
+
+    <summary>追加プラグイン</summary>
+
+    - [VOICEROID+ 東北きりたん EX](https://www.ah-soft.com/kiritan/)
+    - [VOICEROID+ 月読アイ EX](https://www.ah-soft.com/voiceroid/ai/)
+  </details>
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://spring-fragrance.mints.ne.jp/aviutl/)AviUtl](https://spring-fragrance.mints.ne.jp/aviutl/)
 
@@ -54,7 +62,7 @@
     - [モーショントラッキング]()
       - [MotionTrackingMKⅡ](https://aviutl.info/motiontracking/)
         - [MotionTrackingMKⅡ-Release.7z](https://onedrive.live.com/?authkey=%21ABNo3i9YR5%5FdnT8&id=26840CDF9818EB8E%21434&cid=26840CDF9818EB8E)
-    - [入力プラグイン]()
+    - 入力プラグイン
       - [L-SMASH Works](https://aviutl.info/l-smash-works/)
         - [L-SMASH Works](https://pop.4-bit.jp/?page_id=7929)
       - [InputPipePlugin](https://www.nicovideo.jp/watch/sm35585310)
@@ -81,6 +89,30 @@
       - [PSDToolKit](https://github.com/oov/aviutl_psdtoolkit/releases)
 
   </details>
+
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://www.nvidia.com/ja-jp/)nvidia geforce drivers](https://www.nvidia.com/ja-jp/geforce/drivers/)
+
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://www.google.com/chrome/)Google chrome](https://www.google.com/chrome)
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://tools.google.com/dlpage/japaneseinput/eula.html?platform=win)Google IME](https://tools.google.com/dlpage/japaneseinput/eula.html?platform=win)
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://www.google.com/intl/ja_jp/drive/download/)Google Drive](https://dl.google.com/drive-file-stream/GoogleDriveSetup.exe)
+- [![](https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.kingjim.co.jp/&size=16)TEPRA Label Editor SPC10](https://www.kingjim.co.jp/download/tepra/labeleditor.html?open=tab-02&move=anc-01)
+  - [キングジム テプラPRO モノクロ SR5900P](https://www.kingjim.co.jp/download/tepra/sr5900p/)([直リンク](https://www.kingjim.co.jp/resource-files/download/tepra/SPC10_306.zip)) を使用中 (購入元:[amazon](https://amzn.to/3QNRPH8))
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://sakura-editor.github.io/)Sakura Editor](https://github.com/sakura-editor/sakura/releases)
+  - 通常は インストーラー を使用
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://winmerge.org/?lang=ja)WinMerge](https://winmerge.org/downloads/?lang=ja)
+  - 通常は インストーラー `WinMerge-x.xx.xx.x-x64-Setup.exe` を使用
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://teratermproject.github.io/)TeraTerm](https://github.com/TeraTermProject/teraterm/releases)
+  - 通常は zip を使用
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://code.visualstudio.com/)VS Code](https://code.visualstudio.com/)
+  - 通常は User Installer を使用
+  - Plugin: [Markdown All in One](https://qiita.com/eyuta/items/b1a53f3da8c5f8e7f41d)
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://chigusa-web.com/clibor/download/)Clibor](https://www.vector.co.jp/download/file/winnt/util/fh767948.html)
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://learn.microsoft.com)Microsoft Visual C++](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://www.virtualbox.org)Virtualbox](https://www.virtualbox.org/wiki/Downloads)
+- [![](https://www.google.com/s2/favicons?size=64&domain=docker.com)Docker Desktop for Windows](https://docs.docker.com/desktop/install/windows-install/)
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://www.gns3.com)GNS3](https://www.gns3.com/software/download)
+- [![](https://www.google.com/s2/favicons?size=64&domain=http://nagatsuki.la.coocan.jp/bunbackup/)BunBackup](https://forest.watch.impress.co.jp/library/software/bunbackup/) [直リンク](https://dforest.watch.impress.co.jp/library/b/bunbackup/11539/BunBackupS611.exe)
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://soomfon.com)Stream Controller SOOMFON](https://soomfon.com/pages/support)
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.gimp.org/)GIMP](https://www.gimp.org/downloads/) [ms store](https://apps.microsoft.com/detail/xpdm27w10192q0?launch=true&mode=full&hl=ja-jp&gl=jp&ocid=bingstartsearch)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.videolan.org/)Video LAN VLC Player](https://www.videolan.org/vlc/download-windows.html) [ms store](https://apps.microsoft.com/store/detail/XPDM1ZW6815MQM?ocid=pdpshare)
@@ -132,15 +164,8 @@
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://hoyoplay.hoyoverse.com/)HoyoPlay](https://sg-public-api.hoyoverse.com/event/download_porter/trace/hyp_global/hyphoyoverse/default?url=https%3A%2F%2Fhoyoplay.hoyoverse.com%2F%3Flang%3Dja-jp)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://voicevox.hiroshiba.jp/)VOICEVOX](https://voicevox.hiroshiba.jp/)
   - 通常は GPU/CPUインストーラー を使用
-- [![](https://www.google.com/s2/favicons?size=64&domain=https://aivoice.jp/)A.I.VOICE](https://aivoice.jp/member/storage/dl/editor/2.5.0/AIVoice2Editor.msi)
-  - [A.I.VOICE 琴葉 茜・葵](https://aivoice.jp/member/downloads/all-in-one/kotonoha)
-- [![](https://www.google.com/s2/favicons?size=64&domain=https://aivoice.jp/)A.I.VOICE2](https://aivoice.jp/member/storage/dl/editor/1.4.9/AIVoiceEditor.msi)
-  - [A.I.VOICE2 紲星 あかり](https://aivoice.jp/member/mydownloads/character/KizunaAkari#aivoice2)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.gynoid.co.jp/)ガイノイドTALK](https://www.gynoid.co.jp/)
   - [ガイノイドTALK 鳴花ヒメ・ミコト](https://www.gynoid.co.jp/items/view/19)
-- [![](https://www.google.com/s2/favicons?size=64&domain=https://www.ah-soft.com/voiceroid/ai/)AHS VOICEROID+](https://www.ah-soft.com/mypage/)
-  - [VOICEROID+ 東北きりたん EX](https://www.ah-soft.com/kiritan/)
-  - [VOICEROID+ 月読アイ EX](https://www.ah-soft.com/voiceroid/ai/)
 
 ---
 
