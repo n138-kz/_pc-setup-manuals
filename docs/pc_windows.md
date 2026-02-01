@@ -96,6 +96,9 @@
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.python.org/)Python3](https://www.python.org/downloads/) [ms store](https://apps.microsoft.com/detail/9nrwmjp3717k?ocid=pdpshare&hl=ja-jp&gl=US)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://github.com)Github Desktop](https://central.github.com/deployments/desktop/desktop/latest/win32)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://ffmpeg.org/)ffmpeg](https://github.com/BtbN/FFmpeg-Builds/releases)
+
+  <details>
+
   - 通常は ffmpeg-master-latest-win64-gpl.zip を使用
   - zipファイルの中身を解凍し `bin` に対して[パスを通す](https://taziku.co.jp/blog/windows-ffmpeg)
 
@@ -106,6 +109,8 @@
   ```cmd
   %USERPROFILE%\Documents\bin\ffmpeg-master-latest-win64-gpl\bin
   ```
+
+  </details>
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://obsproject.com/)OBS Studio](https://obsproject.com/ja/download)
   - 通常は インストーラー を使用
