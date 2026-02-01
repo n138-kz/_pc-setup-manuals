@@ -145,7 +145,7 @@
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://github.com)Github Desktop](https://central.github.com/deployments/desktop/desktop/latest/win32)
 
-- [![](<img style="height:16px;width:16px" src="https://www.google.com/chrome/static/images/chrome-logo-m100.svg">)Google Chrome](https://www.google.com/chrome)
+- [<img style="height:16px;width:16px" src="https://www.google.com/chrome/static/images/chrome-logo-m100.svg">Google Chrome](https://www.google.com/chrome)
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://drive.google.com/drive/u/0/my-drive)Google Drive](https://dl.google.com/drive-file-stream/GoogleDriveSetup.exe)
 
