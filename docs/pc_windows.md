@@ -111,7 +111,7 @@
 
   <details>
 
-    <legend>追加プラグイン</legend>
+    <summary>追加プラグイン</summary>
 
     - [OBSでYoutubeとTwitch同時配信をする方法](https://castcraft.live/blog/279/)
       - [obs-multi-rtmp](https://github.com/sorayuki/obs-multi-rtmp/releases/)
