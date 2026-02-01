@@ -91,28 +91,43 @@
 
   </details>
 
+- [![](https://www.google.com/s2/favicons?size=64&domain=http://nagatsuki.la.coocan.jp/bunbackup/)BunBackup](https://forest.watch.impress.co.jp/library/software/bunbackup/)
+  - [直リンク](https://dforest.watch.impress.co.jp/library/b/bunbackup/11539/BunBackupS611.exe)
+
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.nvidia.com/ja-jp/)nvidia geforce drivers](https://www.nvidia.com/ja-jp/geforce/drivers/)
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.google.com/chrome/)Google chrome](https://www.google.com/chrome)
+
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://tools.google.com/dlpage/japaneseinput/eula.html?platform=win)Google IME](https://tools.google.com/dlpage/japaneseinput/eula.html?platform=win)
+
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.google.com/intl/ja_jp/drive/download/)Google Drive](https://dl.google.com/drive-file-stream/GoogleDriveSetup.exe)
+
 - [![](https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.kingjim.co.jp/&size=16)TEPRA Label Editor SPC10](https://www.kingjim.co.jp/download/tepra/labeleditor.html?open=tab-02&move=anc-01)
   - [キングジム テプラPRO モノクロ SR5900P](https://www.kingjim.co.jp/download/tepra/sr5900p/)([直リンク](https://www.kingjim.co.jp/resource-files/download/tepra/SPC10_306.zip)) を使用中 (購入元:[amazon](https://amzn.to/3QNRPH8))
+
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://sakura-editor.github.io/)Sakura Editor](https://github.com/sakura-editor/sakura/releases)
   - 通常は インストーラー を使用
+
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://winmerge.org/?lang=ja)WinMerge](https://winmerge.org/downloads/?lang=ja)
   - 通常は インストーラー `WinMerge-x.xx.xx.x-x64-Setup.exe` を使用
+
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://teratermproject.github.io/)TeraTerm](https://github.com/TeraTermProject/teraterm/releases)
   - 通常は zip を使用
+
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://code.visualstudio.com/)VS Code](https://code.visualstudio.com/)
   - 通常は User Installer を使用
   - Plugin: [Markdown All in One](https://qiita.com/eyuta/items/b1a53f3da8c5f8e7f41d)
+
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://chigusa-web.com/clibor/download/)Clibor](https://www.vector.co.jp/download/file/winnt/util/fh767948.html)
+
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://learn.microsoft.com)Microsoft Visual C++](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.virtualbox.org)Virtualbox](https://www.virtualbox.org/wiki/Downloads)
+
 - [![](https://www.google.com/s2/favicons?size=64&domain=docker.com)Docker Desktop for Windows](https://docs.docker.com/desktop/install/windows-install/)
+
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.gns3.com)GNS3](https://www.gns3.com/software/download)
-- [![](https://www.google.com/s2/favicons?size=64&domain=http://nagatsuki.la.coocan.jp/bunbackup/)BunBackup](https://forest.watch.impress.co.jp/library/software/bunbackup/) [直リンク](https://dforest.watch.impress.co.jp/library/b/bunbackup/11539/BunBackupS611.exe)
+
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://soomfon.com)Stream Controller SOOMFON](https://soomfon.com/pages/support)
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.gimp.org/)GIMP](https://www.gimp.org/downloads/) [ms store](https://apps.microsoft.com/detail/xpdm27w10192q0?launch=true&mode=full&hl=ja-jp&gl=jp&ocid=bingstartsearch)
