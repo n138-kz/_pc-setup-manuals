@@ -99,6 +99,8 @@
 
   <details>
 
+    <summary>追加プラグイン</summary>
+
     - 通常は ffmpeg-master-latest-win64-gpl.zip を使用
     - zipファイルの中身を解凍し `bin` に対して[パスを通す](https://taziku.co.jp/blog/windows-ffmpeg)
 
