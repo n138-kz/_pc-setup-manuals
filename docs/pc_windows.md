@@ -113,10 +113,10 @@
 
     <summary>追加プラグイン</summary>
 
+    - [【音声波形】OBSにオーディオスペクトラムを表示する【spectralizer】](https://www.ruri.info/obs-spectralizer/)
+      - [spectralizer](https://github.com/univrsal/spectralizer/releases/)
     - [OBSでYoutubeとTwitch同時配信をする方法](https://castcraft.live/blog/279/)
       - [obs-multi-rtmp](https://github.com/sorayuki/obs-multi-rtmp/releases/)
-        ![](https://images-ext-1.discordapp.net/external/xuKLL26mRLxCC2fx08An-Guxie5MyyUeVrox7lC-4Mo/https/images.ctfassets.net/3a5471szmrtv/446zIPeDMCX6Iqadnavprv/5339e13cbc8dd33f9812d84ba6108b5d/12._______.png?format=webp&quality=lossless)
-      - 
 
   </details>
 
