@@ -21,7 +21,7 @@
 
   - 通常は exeタイプのインストーラー を使用
 
-  - [![](https://www.google.com/s2/favicons?size=64&domain=https://aivoice.jp/)A.I.VOICE](https://aivoice.jp/member/storage/dl/editor/2.5.0/AIVoice2Editor.msi)
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://aivoice.jp/)A.I.VOICE](https://aivoice.jp/member/storage/dl/editor/2.5.0/AIVoice2Editor.msi)
 
   <details>
 
@@ -31,7 +31,7 @@
 
   </details>
 
-  - [![](https://www.google.com/s2/favicons?size=64&domain=https://aivoice.jp/)A.I.VOICE2](https://aivoice.jp/member/storage/dl/editor/1.4.9/AIVoiceEditor.msi)
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://aivoice.jp/)A.I.VOICE2](https://aivoice.jp/member/storage/dl/editor/1.4.9/AIVoiceEditor.msi)
 
   <details>
 
