@@ -5,15 +5,12 @@
   - [Setup](#setup)
     - [Win10](#win10)
       - [Windowsの時計に「秒」を表示する方法](#windowsの時計に秒を表示する方法)
-        - [設定を元に戻す方法](#設定を元に戻す方法)
       - [拡張子表示](#拡張子表示)
       - [インターネットオプション](#インターネットオプション)
       - [Windows10でファイルをドラッグ\&ドロップ出来ない?! を解決する方法](#windows10でファイルをドラッグドロップ出来ない-を解決する方法)
     - [win11](#win11)
       - [Windows 11の右クリックメニュー](#windows-11の右クリックメニュー)
-        - [設定を元に戻す方法](#設定を元に戻す方法-1)
       - [Wireshark + Intel NIC で tagVLAN の VLAN-ID を含めてキャプチャする方法](#wireshark--intel-nic-で-tagvlan-の-vlan-id-を含めてキャプチャする方法)
-        - [sample](#sample)
 
 ## Software
 
@@ -249,126 +246,151 @@
 
 #### [Windowsの時計に「秒」を表示する方法](https://engrholiday.jp/win/surface-clock-second/)
 
-1. レジストリエディターより以下の場所を開きます。
+  <details>
 
-```reg
-コンピューター\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced
-```
+    1. レジストリエディターより以下の場所を開きます。
 
-```reg
-reg query "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "ShowSecondsInSystemClock"
-```
+    ```reg
+    コンピューター\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+    ```
 
-```reg
-reg add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /f /v "ShowSecondsInSystemClock" /t REG_DWORD /d 1
-```
+    ```reg
+    reg query "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "ShowSecondsInSystemClock"
+    ```
 
-2. `Advanced`キー内に`DWORD（32ビット）`値の［`ShowSecondsInSystemClock`］が無い場合は作成します。
-3. `ShowSecondsInSystemClock`をダブルクリックし［値のデータ］を【`1`】に変更します。
-4. 再度サインインまたはパソコンを再起動します。
+    ```reg
+    reg add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /f /v "ShowSecondsInSystemClock" /t REG_DWORD /d 1
+    ```
 
-##### 設定を元に戻す方法
+    2. `Advanced`キー内に`DWORD（32ビット）`値の［`ShowSecondsInSystemClock`］が無い場合は作成します。
+    3. `ShowSecondsInSystemClock`をダブルクリックし［値のデータ］を【`1`】に変更します。
+    4. 再度サインインまたはパソコンを再起動します。
 
-1. 作成したキーを削除するか、［値のデータ］を【`0`】に変更
+    ##### 設定を元に戻す方法
+
+    5. 作成したキーを削除するか、［値のデータ］を【`0`】に変更
+
+  </details>
 
 #### [拡張子表示]()
 
-1. レジストリエディターより以下の場所を開きます。
+  <details>
 
-```reg
-reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced /v HideFileExt /t REG_DWORD /d 0 /f
-```
+    1. レジストリエディターより以下の場所を開きます。
+
+    ```reg
+    reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced /v HideFileExt /t REG_DWORD /d 0 /f
+    ```
+
+  </details>
 
 #### [インターネットオプション]()
 
-```cmd
-control inetcpl.cpl
-```
+  <details>
 
-- [Windowsのコントロールパネルの各アイテムをコマンドラインから起動する @IT Tech TIPS](https://atmarkit.itmedia.co.jp/ait/articles/0507/02/news016.html)
+    ```cmd
+    control inetcpl.cpl
+    ```
+
+    - [Windowsのコントロールパネルの各アイテムをコマンドラインから起動する @IT Tech TIPS](https://atmarkit.itmedia.co.jp/ait/articles/0507/02/news016.html)
+
+  </details>
 
 #### [Windows10でファイルをドラッグ&ドロップ出来ない?! を解決する方法](https://pasonal.com/windows10-drag-drop-error/)
 
-1. レジストリエディターより以下の場所を開きます。
+  <details>
 
-```reg
-コンピューター\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\EnableSecureUIAPaths
-```
+    1. レジストリエディターより以下の場所を開きます。
 
-```reg
-reg query "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "EnableSecureUIAPaths"
-```
+    ```reg
+    コンピューター\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\EnableSecureUIAPaths
+    ```
 
-```reg
-reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /f /v "EnableSecureUIAPaths" /t REG_DWORD /d 0
-```
+    ```reg
+    reg query "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "EnableSecureUIAPaths"
+    ```
 
-2. `System`キー内に`DWORD（32ビット）`値の［`EnableSecureUIAPaths`］が無い場合は作成します。
-3. `EnableSecureUIAPaths`をダブルクリックし［値のデータ］を【`0`】に変更します。
-4. 再度サインインまたはパソコンを再起動します。
+    ```reg
+    reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /f /v "EnableSecureUIAPaths" /t REG_DWORD /d 0
+    ```
+
+    2. `System`キー内に`DWORD（32ビット）`値の［`EnableSecureUIAPaths`］が無い場合は作成します。
+    3. `EnableSecureUIAPaths`をダブルクリックし［値のデータ］を【`0`】に変更します。
+    4. 再度サインインまたはパソコンを再起動します。
+
+  </details>
 
 ### win11
 
 #### [Windows 11の右クリックメニュー](https://and-engineer.com/articles/Y6pL0xIAACIAbxZU/)
 
-1. レジストリエディターより以下の場所を開きます。
+  <details>
 
-```reg
-コンピューター\HKEY_CURRENT_USER\Software\Classes\CLSID
-```
+    1. レジストリエディターより以下の場所を開きます。
 
-2. `CLSID`キー内に`キー`の［`{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}`］が無い場合は作成します。
-3. `{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}`キー内に`キー`の［`InProcServer32`］が無い場合は作成します。
-4. `既定`をダブルクリックし［値のデータ］を【``(空欄)】に変更します。
-5. 再度サインインまたはパソコンを再起動します。
+    ```reg
+    コンピューター\HKEY_CURRENT_USER\Software\Classes\CLSID
+    ```
 
-```reg
-reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InProcServer32" /f /ve
-```
+    2. `CLSID`キー内に`キー`の［`{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}`］が無い場合は作成します。
+    3. `{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}`キー内に`キー`の［`InProcServer32`］が無い場合は作成します。
+    4. `既定`をダブルクリックし［値のデータ］を【``(空欄)】に変更します。
+    5. 再度サインインまたはパソコンを再起動します。
 
-##### 設定を元に戻す方法
+    ```reg
+    reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InProcServer32" /f /ve
+    ```
 
-1. 作成したキーを削除する
+    ##### 設定を元に戻す方法
 
-```reg
-reg delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" /f
-```
+    6. 作成したキーを削除する
+
+    ```reg
+    reg delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" /f
+    ```
+
+  </details>
 
 #### [Wireshark + Intel NIC で tagVLAN の VLAN-ID を含めてキャプチャする方法](https://naga-sawa.hatenadiary.org/entry/20090510/1241949218)
-1. レジストリエディターより以下の場所を開きます。
 
-```reg
-コンピューター\HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\00xx
-```
+  <details>
 
-> [!NOTE]
-> `00xx` は 対応するNICのID  
-> 中を開いて、`DriverDesc`でドライバー名を確認して指定する。  
+    1. レジストリエディターより以下の場所を開きます。
 
-> ドライバが `e1g`, `e1e`, `e1y` の場合は → `MonitorModeEnabled=1`  
-> ドライバが `e1c`, `e1d`, `e1k`, `e1q`, `e1r`, `ixe`, `ixn`, `ixt` の場合は → `MonitorMode=1`  
-> を新規作成する。  
-> ドライバの見分け方は、コントロールパネル→ネットワークとインターネット→ネットワーク接続 を開いて(コマンドで開く場合は `control netconnections`)、対象の NIC のプロパティを開き、その「構成」から「ドライバタブ」を開いて「ドライバファイルの詳細」を開くとドライバファイルの一覧が出てくるので、そこのファイル名から判別
+    ```reg
+    コンピューター\HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\00xx
+    ```
 
-とあるが、`MonitorModeEnabled`, `MonitorMode` 設定しても支障無い<sup>(要出典)</sup>ため、両方設定する。
+    > [!NOTE]
+    > `00xx` は 対応するNICのID  
+    > 中を開いて、`DriverDesc`でドライバー名を確認して指定する。  
 
-```reg
-reg query "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\00xx" /v "MonitorModeEnabled"
-```
+    > ドライバが `e1g`, `e1e`, `e1y` の場合は → `MonitorModeEnabled=1`  
+    > ドライバが `e1c`, `e1d`, `e1k`, `e1q`, `e1r`, `ixe`, `ixn`, `ixt` の場合は → `MonitorMode=1`  
+    > を新規作成する。  
+    > ドライバの見分け方は、コントロールパネル→ネットワークとインターネット→ネットワーク接続 を開いて(コマンドで開く場合は `control netconnections`)、対象の NIC のプロパティを開き、その「構成」から「ドライバタブ」を開いて「ドライバファイルの詳細」を開くとドライバファイルの一覧が出てくるので、そこのファイル名から判別
 
-```bat
-for /l %i in (1,1,9) do reg query "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\000%i" /v "MonitorModeEnabled" & for /l %i in (10,1,19) do reg query "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\00%i" /v "MonitorModeEnabled"
-for /l %i in (1,1,9) do reg query "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\000%i" /v "MonitorMode" & for /l %i in (10,1,19) do reg query "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\00%i" /v "MonitorMode"
-```
+    とあるが、`MonitorModeEnabled`, `MonitorMode` 設定しても支障無い<sup>(要出典)</sup>ため、両方設定する。
 
-##### sample
+    ```reg
+    reg query "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\00xx" /v "MonitorModeEnabled"
+    ```
 
-```reg
-reg add "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0001" /f /v "MonitorMode" /t REG_DWORD /d 1
-reg add "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0002" /f /v "MonitorMode" /t REG_DWORD /d 1
-reg add "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0003" /f /v "MonitorMode" /t REG_DWORD /d 1
-reg add "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0001" /f /v "MonitorModeEnabled" /t REG_DWORD /d 1
-reg add "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0002" /f /v "MonitorModeEnabled" /t REG_DWORD /d 1
-reg add "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0003" /f /v "MonitorModeEnabled" /t REG_DWORD /d 1
-```
-反映はPC再起動後
+    ```bat
+    for /l %i in (1,1,9) do reg query "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\000%i" /v "MonitorModeEnabled" & for /l %i in (10,1,19) do reg query "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\00%i" /v "MonitorModeEnabled"
+    for /l %i in (1,1,9) do reg query "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\000%i" /v "MonitorMode" & for /l %i in (10,1,19) do reg query "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\00%i" /v "MonitorMode"
+    ```
+
+    ##### sample
+
+    ```reg
+    reg add "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0001" /f /v "MonitorMode" /t REG_DWORD /d 1
+    reg add "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0002" /f /v "MonitorMode" /t REG_DWORD /d 1
+    reg add "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0003" /f /v "MonitorMode" /t REG_DWORD /d 1
+    reg add "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0001" /f /v "MonitorModeEnabled" /t REG_DWORD /d 1
+    reg add "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0002" /f /v "MonitorModeEnabled" /t REG_DWORD /d 1
+    reg add "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0003" /f /v "MonitorModeEnabled" /t REG_DWORD /d 1
+    ```
+    反映はPC再起動後
+
+  </details>
