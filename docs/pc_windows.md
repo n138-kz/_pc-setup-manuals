@@ -132,10 +132,18 @@
 
   </details>
 
-
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://chigusa-web.com/clibor/download/)Clibor](https://www.vector.co.jp/download/file/winnt/util/fh767948.html)
 
-- [![](https://www.google.com/s2/favicons?size=64&domain=https://discord.com/)Discord](https://discord.com/) [直リンク](https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x64) [ms store](https://apps.microsoft.com/store/detail/XPDC2RH70K22MN?ocid=pdpshare)
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://discord.com/)Discord](https://discord.com/)
+
+  <details>
+
+    <summary>追加プラグイン</summary>
+
+    - [直リンク](https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x64)
+    - [ms store](https://apps.microsoft.com/store/detail/XPDC2RH70K22MN?ocid=pdpshare)
+
+  </details>  
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=docker.com)Docker Desktop for Windows](https://docs.docker.com/desktop/install/windows-install/)
 
@@ -158,8 +166,16 @@
 
   </details>
 
-- [![](https://www.google.com/s2/favicons?size=64&domain=https://www.gimp.org/)GIMP](https://www.gimp.org/downloads/) [ms store](https://apps.microsoft.com/detail/xpdm27w10192q0?launch=true&mode=full&hl=ja-jp&gl=jp&ocid=bingstartsearch)
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://www.gimp.org/)GIMP](https://www.gimp.org/downloads/)
 
+  <details>
+
+    <summary>追加プラグイン</summary>
+
+    - [ms store](https://apps.microsoft.com/detail/xpdm27w10192q0?launch=true&mode=full&hl=ja-jp&gl=jp&ocid=bingstartsearch)
+
+  </details>
+  
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.gns3.com)GNS3](https://www.gns3.com/software/download)
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://github.com)Github Desktop](https://central.github.com/deployments/desktop/desktop/latest/win32)
@@ -177,8 +193,15 @@
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://hoyoplay.hoyoverse.com/)HoyoPlay](https://sg-public-api.hoyoverse.com/event/download_porter/trace/hyp_global/hyphoyoverse/default?url=https%3A%2F%2Fhoyoplay.hoyoverse.com%2F%3Flang%3Dja-jp)
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://pay.line.me/)Line](https://pay.line.me/portal/jp/apps/line)
-  - [直リンク](https://desktop.line-scdn.net/win/new/LineInst.exe)
-  - [ms store](https://apps.microsoft.com/store/detail/XPFCC4CD725961?ocid=pdpshare)
+
+  <details>
+
+    <summary>追加プラグイン</summary>
+
+    - [直リンク](https://desktop.line-scdn.net/win/new/LineInst.exe)
+    - [ms store](https://apps.microsoft.com/store/detail/XPFCC4CD725961?ocid=pdpshare)
+
+  </details>
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://learn.microsoft.com)Microsoft Visual C++](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 
@@ -192,8 +215,11 @@
     <summary>追加プラグイン</summary>
 
     - [【音声波形】OBSにオーディオスペクトラムを表示する【spectralizer】](https://www.ruri.info/obs-spectralizer/)
+
       - [spectralizer](https://github.com/univrsal/spectralizer/releases/)
+
     - [OBSでYoutubeとTwitch同時配信をする方法](https://castcraft.live/blog/279/)
+
       - [obs-multi-rtmp](https://github.com/sorayuki/obs-multi-rtmp/releases/)
 
   </details>
@@ -201,11 +227,13 @@
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://parakeet-inc.com/)ParakeetVC Paravo](https://parakeet-inc.com/paravo#paravo-install)
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.python.org/)Python3](https://www.python.org/downloads/)
+
   - [ms store](https://apps.microsoft.com/detail/9nrwmjp3717k?ocid=pdpshare&hl=ja-jp&gl=US)
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://sakura-editor.github.io/)Sakura Editor](https://github.com/sakura-editor/sakura/releases)
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://soundengine.jp/software/)SoundEngine](https://soundengine.jp/software/)
+
   - 通常は [Free Edition](https://soundengine.jp/software/download/soundengine_free_523_3.exe) を使用
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://store.steampowered.com/)STEAM](https://store.steampowered.com/about/)
@@ -217,28 +245,52 @@
 - [![](https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.kingjim.co.jp/&size=16)TEPRA Label Editor SPC10](https://www.kingjim.co.jp/download/tepra/labeleditor.html?open=tab-02&move=anc-01)
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://teratermproject.github.io/)TeraTerm](https://github.com/TeraTermProject/teraterm/releases)
+
   - 通常は zip を使用
 
-- [![](https://www.google.com/s2/favicons?size=64&domain=https://www.videolan.org/)Video LAN VLC Player](https://www.videolan.org/vlc/download-windows.html) [ms store](https://apps.microsoft.com/store/detail/XPDM1ZW6815MQM?ocid=pdpshare)
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://www.videolan.org/)Video LAN VLC Player](https://www.videolan.org/vlc/download-windows.html) 
+
+  - [ms store](https://apps.microsoft.com/store/detail/XPDM1ZW6815MQM?ocid=pdpshare)
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.virtualbox.org)Virtualbox](https://www.virtualbox.org/wiki/Downloads)
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://code.visualstudio.com/)VS Code](https://code.visualstudio.com/)
+
   - 通常は User Installer を使用
-  - Plugin: [Markdown All in One](https://qiita.com/eyuta/items/b1a53f3da8c5f8e7f41d)
+
+  <details>
+
+    <summary>追加プラグイン</summary>
+
+    - [Markdown All in One](https://qiita.com/eyuta/items/b1a53f3da8c5f8e7f41d)
+
+  </details>
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://voicevox.hiroshiba.jp/)VOICEVOX](https://voicevox.hiroshiba.jp/)
+
   - 通常は GPU/CPUインストーラー を使用
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://winmerge.org/?lang=ja)WinMerge](https://winmerge.org/downloads/?lang=ja)
+
   - 通常は インストーラー `WinMerge-x.xx.xx.x-x64-Setup.exe` を使用
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.xmedia-recode.de/en/)XMedia Recode](https://www.xmedia-recode.de/en/download.php)
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.gynoid.co.jp/)ガイノイドTALK](https://www.gynoid.co.jp/)
-  - [ガイノイドTALK 鳴花ヒメ・ミコト](https://www.gynoid.co.jp/items/view/19)
 
-- [キングジム テプラPRO モノクロ SR5900P](https://www.kingjim.co.jp/download/tepra/sr5900p/)([直リンク](https://www.kingjim.co.jp/resource-files/download/tepra/SPC10_306.zip)) を使用中 (購入元:[amazon](https://amzn.to/3QNRPH8))
+  <details>
+
+    <summary>追加プラグイン</summary>
+
+    - [ガイノイドTALK 鳴花ヒメ・ミコト](https://www.gynoid.co.jp/items/view/19)
+
+  </details>
+
+
+- [キングジム テプラPRO モノクロ SR5900P](https://www.kingjim.co.jp/download/tepra/sr5900p/)
+
+  - [直リンク](https://www.kingjim.co.jp/resource-files/download/tepra/SPC10_306.zip) を使用中
+  - 購入元:[amazon](https://amzn.to/3QNRPH8)
 
 ---
 
