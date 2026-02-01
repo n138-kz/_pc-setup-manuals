@@ -200,6 +200,10 @@
 
 - [![](https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.kingjim.co.jp/&size=16)TEPRA Label Editor SPC10](https://www.kingjim.co.jp/download/tepra/labeleditor.html?open=tab-02&move=anc-01)
 
+  - [キングジム テプラPRO モノクロ SR5900P](https://www.kingjim.co.jp/download/tepra/sr5900p/)
+  - [直リンク](https://www.kingjim.co.jp/resource-files/download/tepra/SPC10_306.zip) を使用中
+  - [購入元: amazon](https://amzn.to/3QNRPH8)
+
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://teratermproject.github.io/)TeraTerm](https://github.com/TeraTermProject/teraterm/releases)
   - 通常は zip を使用
 
@@ -236,10 +240,6 @@
     - [ガイノイドTALK 鳴花ヒメ・ミコト](https://www.gynoid.co.jp/items/view/19)
 
   </details>
-
-- [キングジム テプラPRO モノクロ SR5900P](https://www.kingjim.co.jp/download/tepra/sr5900p/)
-  - [直リンク](https://www.kingjim.co.jp/resource-files/download/tepra/SPC10_306.zip) を使用中
-  - [購入元: amazon](https://amzn.to/3QNRPH8)
 
 ---
 
