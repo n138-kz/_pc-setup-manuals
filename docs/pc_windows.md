@@ -42,13 +42,12 @@
 - [![](https://www.google.com/s2/favicons?size=64&domain=http://nagatsuki.la.coocan.jp/bunbackup/)BunBackup](https://forest.watch.impress.co.jp/library/software/bunbackup/) [直リンク](https://dforest.watch.impress.co.jp/library/b/bunbackup/11539/BunBackupS611.exe)
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://soomfon.com)Stream Controller SOOMFON](https://soomfon.com/pages/support)
 
-- AviUtl
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://spring-fragrance.mints.ne.jp/aviutl/)AviUtl](https://spring-fragrance.mints.ne.jp/aviutl/)
 
   <details>
 
     <summary>追加プラグイン</summary>
 
-    - [![](https://www.google.com/s2/favicons?size=64&domain=https://spring-fragrance.mints.ne.jp/aviutl/)AviUtl](https://spring-fragrance.mints.ne.jp/aviutl/)
     - [AviUtl](https://spring-fragrance.mints.ne.jp/aviutl/aviutl110.zip)
     - [拡張編集Plugin](https://spring-fragrance.mints.ne.jp/aviutl/exedit92.zip)
     - [Plugin sample (aviutl.info)](https://aviutl.info/plugins/#toc2)
