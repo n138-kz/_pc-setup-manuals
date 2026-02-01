@@ -290,7 +290,7 @@
 - [キングジム テプラPRO モノクロ SR5900P](https://www.kingjim.co.jp/download/tepra/sr5900p/)
 
   - [直リンク](https://www.kingjim.co.jp/resource-files/download/tepra/SPC10_306.zip) を使用中
-  - 購入元:[amazon](https://amzn.to/3QNRPH8)
+  - [購入元: amazon](https://amzn.to/3QNRPH8)
 
 ---
 
