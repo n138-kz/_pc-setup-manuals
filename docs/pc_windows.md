@@ -157,7 +157,7 @@
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://hoyoplay.hoyoverse.com/)HoyoPlay](https://sg-public-api.hoyoverse.com/event/download_porter/trace/hyp_global/hyphoyoverse/default?url=https%3A%2F%2Fhoyoplay.hoyoverse.com%2F%3Flang%3Dja-jp)
 
-- [iMyFoneMagicMic](https://jp.imyfone.com/voice-changer/?pid=96&custom=com_jp)
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://jp.imyfone.com/voice-changer/?pid=96&custom=com_jp)iMyFoneMagicMic](https://jp.imyfone.com/voice-changer/?pid=96&custom=com_jp)
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://pay.line.me/)Line](https://pay.line.me/portal/jp/apps/line)
   - [直リンク](https://desktop.line-scdn.net/win/new/LineInst.exe)
