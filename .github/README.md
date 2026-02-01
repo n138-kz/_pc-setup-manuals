@@ -1,6 +1,6 @@
 # [_pc-setup-manuals](https://github.com/n138-kz/_pc-setup-manuals)
 
-![GitHub Extra Pins](https://github-readme-stats.vercel.app/api/pin/?locale=ja&username=n138-kz&repo=_pc-setup-manuals&show_owner=true&theme=graywhite)
+![GitHub Extra Pins](https://opengraph.githubassets.com/cd092d10d25430b1dd1a7506e851950f5e64cda882b7cb4d68b4e9491d6505d7/n138-kz/_pc-setup-manuals?format=webp)
 
 ## pc_windows
 
