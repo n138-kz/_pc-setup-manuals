@@ -99,16 +99,16 @@
 
   <details>
 
-  - 通常は ffmpeg-master-latest-win64-gpl.zip を使用
-  - zipファイルの中身を解凍し `bin` に対して[パスを通す](https://taziku.co.jp/blog/windows-ffmpeg)
+    - 通常は ffmpeg-master-latest-win64-gpl.zip を使用
+    - zipファイルの中身を解凍し `bin` に対して[パスを通す](https://taziku.co.jp/blog/windows-ffmpeg)
 
-  ```cmd
-  set PATH=%PATH%;%USERPROFILE%\Documents\bin\ffmpeg-master-latest-win64-gpl\bin
-  ```
-  
-  ```cmd
-  %USERPROFILE%\Documents\bin\ffmpeg-master-latest-win64-gpl\bin
-  ```
+    ```cmd
+    set PATH=%PATH%;%USERPROFILE%\Documents\bin\ffmpeg-master-latest-win64-gpl\bin
+    ```
+    
+    ```cmd
+    %USERPROFILE%\Documents\bin\ffmpeg-master-latest-win64-gpl\bin
+    ```
 
   </details>
 
