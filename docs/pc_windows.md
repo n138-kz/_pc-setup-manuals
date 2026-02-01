@@ -18,7 +18,6 @@
 ## Software
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://7-zip.opensource.jp/download.html)7-Zip](https://7-zip.opensource.jp/download.html)
-
   - 通常は exeタイプのインストーラー を使用
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://aivoice.jp/)A.I.VOICE](https://aivoice.jp/member/storage/dl/editor/2.5.0/AIVoice2Editor.msi)
@@ -53,18 +52,17 @@
   </details>
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://spring-fragrance.mints.ne.jp/aviutl/)AviUtl](https://spring-fragrance.mints.ne.jp/aviutl/)
+  - [直リンク](https://spring-fragrance.mints.ne.jp/aviutl/aviutl110.zip)
 
   <details>
 
     <summary>追加プラグイン</summary>
 
-    - [直リンク](https://spring-fragrance.mints.ne.jp/aviutl/aviutl110.zip)
-
     - [拡張編集Plugin](https://spring-fragrance.mints.ne.jp/aviutl/exedit92.zip)
 
     - [Plugin sample (aviutl.info)](https://aviutl.info/plugins/#toc2)
 
-    - [モーショントラッキング]()
+    - モーショントラッキング
 
       - [MotionTrackingMKⅡ](https://aviutl.info/motiontracking/)
 
@@ -73,77 +71,53 @@
     - 入力プラグイン
 
       - [L-SMASH Works](https://aviutl.info/l-smash-works/)
-
         - [L-SMASH Works](https://pop.4-bit.jp/?page_id=7929)
 
       - [InputPipePlugin](https://www.nicovideo.jp/watch/sm35585310)
-
         - [InputPipePlugin](https://github.com/amate/InputPipePlugin/releases/latest)
 
       - [AviUtlSvg](https://aviutl.info/svg/)
-
         - [AviUtlSvg](https://onedrive.live.com/?authkey=%21ABNo3i9YR5%5FdnT8&cid=26840CDF9818EB8E&id=26840CDF9818EB8E%21365&parId=26840CDF9818EB8E%21349&o=OneUp)
 
       - [SRT/ASS Subtitle Reader](https://www.nicovideo.jp/watch/sm24419941)
-
         - [SRT/ASS Subtitle Reader](https://onedrive.live.com/?cid=26840CDF9818EB8E&id=26840CDF9818EB8E%21411&parId=26840CDF9818EB8E%21410&o=OneUp)
 
     - サムネイル表示
 
       - [Aviutl プラグイン シークバー＋](https://aoytsk.blog.jp/aviutl/613302.html)
-
         - [Aviutl プラグイン シークバー＋](https://aoytsk.blog.jp/aviutl/seekbarx.zip)
 
     - [ごちゃまぜドロップス](https://x.com/oovch/status/699737247260606465)
-
       - [ごちゃまぜドロップス](https://github.com/oov/aviutl_oledd/releases)
 
     - [カット編集プラグイン](https://aviutl.info/cutedit/)
-
       - [CutEdit](http://aviutl.web.fc2.com/)
 
     - [拡張編集RAMプレビュー](https://www.nicovideo.jp/watch/sm32668490)
-
       - [拡張編集RAMプレビュー](https://github.com/oov/aviutl_rampreview/releases)
 
     - [VSTプラグイン](https://aviutl.info/vst/)
-
       - [VSTプラグイン](https://aviutl.info/vst/)
 
     - [Twitterの絵文字を使えるようにするヤツ](https://www.nicovideo.jp/watch/sm38772089)
-
       - [Twitterの絵文字を使えるようにするヤツ](https://www.nicovideo.jp/watch/sm38772089)
-
       - [前提: bridge.dll](https://github.com/oov/aviutl_bridge/releases)
 
     - [PSDToolKit](https://oov.github.io/aviutl_psdtoolkit/index.html)
-
       - [PSDToolKit](https://github.com/oov/aviutl_psdtoolkit/releases)
 
   </details>
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=http://nagatsuki.la.coocan.jp/bunbackup/)BunBackup](https://forest.watch.impress.co.jp/library/software/bunbackup/)
 
-  <details>
-
-    <summary>追加プラグイン</summary>
-
-    - [直リンク](https://dforest.watch.impress.co.jp/library/b/bunbackup/11539/BunBackupS611.exe)
-
-  </details>
+  - [直リンク](https://dforest.watch.impress.co.jp/library/b/bunbackup/11539/BunBackupS611.exe)
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://chigusa-web.com/clibor/download/)Clibor](https://www.vector.co.jp/download/file/winnt/util/fh767948.html)
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://discord.com/)Discord](https://discord.com/)
 
-  <details>
-
-    <summary>追加プラグイン</summary>
-
-    - [直リンク](https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x64)
-    - [ms store](https://apps.microsoft.com/store/detail/XPDC2RH70K22MN?ocid=pdpshare)
-
-  </details>  
+  - [直リンク](https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x64)
+  - [ms store](https://apps.microsoft.com/store/detail/XPDC2RH70K22MN?ocid=pdpshare)
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=docker.com)Docker Desktop for Windows](https://docs.docker.com/desktop/install/windows-install/)
 
@@ -153,7 +127,7 @@
 
     <summary>追加プラグイン</summary>
 
-    - 通常は ffmpeg-master-latest-win64-gpl.zip を使用
+    - 通常は `ffmpeg-master-latest-win64-gpl.zip` を使用
     - zipファイルの中身を解凍し `bin` に対して[パスを通す](https://taziku.co.jp/blog/windows-ffmpeg)
 
     ```cmd
@@ -167,14 +141,7 @@
   </details>
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.gimp.org/)GIMP](https://www.gimp.org/downloads/)
-
-  <details>
-
-    <summary>追加プラグイン</summary>
-
-    - [ms store](https://apps.microsoft.com/detail/xpdm27w10192q0?launch=true&mode=full&hl=ja-jp&gl=jp&ocid=bingstartsearch)
-
-  </details>
+  - [ms store](https://apps.microsoft.com/detail/xpdm27w10192q0?launch=true&mode=full&hl=ja-jp&gl=jp&ocid=bingstartsearch)
   
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.gns3.com)GNS3](https://www.gns3.com/software/download)
 
@@ -193,15 +160,8 @@
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://hoyoplay.hoyoverse.com/)HoyoPlay](https://sg-public-api.hoyoverse.com/event/download_porter/trace/hyp_global/hyphoyoverse/default?url=https%3A%2F%2Fhoyoplay.hoyoverse.com%2F%3Flang%3Dja-jp)
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://pay.line.me/)Line](https://pay.line.me/portal/jp/apps/line)
-
-  <details>
-
-    <summary>追加プラグイン</summary>
-
-    - [直リンク](https://desktop.line-scdn.net/win/new/LineInst.exe)
-    - [ms store](https://apps.microsoft.com/store/detail/XPFCC4CD725961?ocid=pdpshare)
-
-  </details>
+  - [直リンク](https://desktop.line-scdn.net/win/new/LineInst.exe)
+  - [ms store](https://apps.microsoft.com/store/detail/XPFCC4CD725961?ocid=pdpshare)
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://learn.microsoft.com)Microsoft Visual C++](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 
@@ -227,13 +187,11 @@
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://parakeet-inc.com/)ParakeetVC Paravo](https://parakeet-inc.com/paravo#paravo-install)
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.python.org/)Python3](https://www.python.org/downloads/)
-
   - [ms store](https://apps.microsoft.com/detail/9nrwmjp3717k?ocid=pdpshare&hl=ja-jp&gl=US)
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://sakura-editor.github.io/)Sakura Editor](https://github.com/sakura-editor/sakura/releases)
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://soundengine.jp/software/)SoundEngine](https://soundengine.jp/software/)
-
   - 通常は [Free Edition](https://soundengine.jp/software/download/soundengine_free_523_3.exe) を使用
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://store.steampowered.com/)STEAM](https://store.steampowered.com/about/)
@@ -249,13 +207,11 @@
   - 通常は zip を使用
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.videolan.org/)Video LAN VLC Player](https://www.videolan.org/vlc/download-windows.html) 
-
   - [ms store](https://apps.microsoft.com/store/detail/XPDM1ZW6815MQM?ocid=pdpshare)
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.virtualbox.org)Virtualbox](https://www.virtualbox.org/wiki/Downloads)
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://code.visualstudio.com/)VS Code](https://code.visualstudio.com/)
-
   - 通常は User Installer を使用
 
   <details>
@@ -267,11 +223,9 @@
   </details>
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://voicevox.hiroshiba.jp/)VOICEVOX](https://voicevox.hiroshiba.jp/)
-
   - 通常は GPU/CPUインストーラー を使用
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://winmerge.org/?lang=ja)WinMerge](https://winmerge.org/downloads/?lang=ja)
-
   - 通常は インストーラー `WinMerge-x.xx.xx.x-x64-Setup.exe` を使用
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.xmedia-recode.de/en/)XMedia Recode](https://www.xmedia-recode.de/en/download.php)
@@ -288,7 +242,6 @@
 
 
 - [キングジム テプラPRO モノクロ SR5900P](https://www.kingjim.co.jp/download/tepra/sr5900p/)
-
   - [直リンク](https://www.kingjim.co.jp/resource-files/download/tepra/SPC10_306.zip) を使用中
   - [購入元: amazon](https://amzn.to/3QNRPH8)
 
