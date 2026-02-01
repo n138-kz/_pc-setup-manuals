@@ -180,45 +180,26 @@
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://teratermproject.github.io/)TeraTerm](https://github.com/TeraTermProject/teraterm/releases)
   - 通常は zip を使用
 
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://www.videolan.org/)Video LAN VLC Player](https://www.videolan.org/vlc/download-windows.html) [ms store](https://apps.microsoft.com/store/detail/XPDM1ZW6815MQM?ocid=pdpshare)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-  - [キングジム テプラPRO モノクロ SR5900P](https://www.kingjim.co.jp/download/tepra/sr5900p/)([直リンク](https://www.kingjim.co.jp/resource-files/download/tepra/SPC10_306.zip)) を使用中 (購入元:[amazon](https://amzn.to/3QNRPH8))
-
-- [![](https://www.google.com/s2/favicons?size=64&domain=https://winmerge.org/?lang=ja)WinMerge](https://winmerge.org/downloads/?lang=ja)
-  - 通常は インストーラー `WinMerge-x.xx.xx.x-x64-Setup.exe` を使用
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://www.virtualbox.org)Virtualbox](https://www.virtualbox.org/wiki/Downloads)
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://code.visualstudio.com/)VS Code](https://code.visualstudio.com/)
   - 通常は User Installer を使用
   - Plugin: [Markdown All in One](https://qiita.com/eyuta/items/b1a53f3da8c5f8e7f41d)
 
-- [![](https://www.google.com/s2/favicons?size=64&domain=https://www.virtualbox.org)Virtualbox](https://www.virtualbox.org/wiki/Downloads)
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://voicevox.hiroshiba.jp/)VOICEVOX](https://voicevox.hiroshiba.jp/)
+  - 通常は GPU/CPUインストーラー を使用
 
-
-- [![](https://www.google.com/s2/favicons?size=64&domain=https://www.videolan.org/)Video LAN VLC Player](https://www.videolan.org/vlc/download-windows.html) [ms store](https://apps.microsoft.com/store/detail/XPDM1ZW6815MQM?ocid=pdpshare)
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://winmerge.org/?lang=ja)WinMerge](https://winmerge.org/downloads/?lang=ja)
+  - 通常は インストーラー `WinMerge-x.xx.xx.x-x64-Setup.exe` を使用
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.xmedia-recode.de/en/)XMedia Recode](https://www.xmedia-recode.de/en/download.php)
 
-
-
-
-
-
-- [![](https://www.google.com/s2/favicons?size=64&domain=https://voicevox.hiroshiba.jp/)VOICEVOX](https://voicevox.hiroshiba.jp/)
-  - 通常は GPU/CPUインストーラー を使用
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.gynoid.co.jp/)ガイノイドTALK](https://www.gynoid.co.jp/)
   - [ガイノイドTALK 鳴花ヒメ・ミコト](https://www.gynoid.co.jp/items/view/19)
+
+- [キングジム テプラPRO モノクロ SR5900P](https://www.kingjim.co.jp/download/tepra/sr5900p/)([直リンク](https://www.kingjim.co.jp/resource-files/download/tepra/SPC10_306.zip)) を使用中 (購入元:[amazon](https://amzn.to/3QNRPH8))
 
 ---
 
