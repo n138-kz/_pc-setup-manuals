@@ -4,10 +4,10 @@
 
 ## pc_windows
 
-- [pc_win10](docs/pc_windows.md)
-- [discord-obs](docs/discord-obs.md)
-- [aviutl-support-utl](docs/aviutl-special-chars.md)
-- [ffmpeg-note](docs/ffmpeg-note.md)
+- [pc_win10](/docs/pc_windows.md)
+- [discord-obs](/docs/discord-obs.md)
+- [aviutl-support-utl](/docs/aviutl-special-chars.md)
+- [ffmpeg-note](/docs/ffmpeg-note.md)
 
 ## Repos Info
 
