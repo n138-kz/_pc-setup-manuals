@@ -49,6 +49,7 @@
 
     - [VOICEROID+ 東北きりたん EX](https://www.ah-soft.com/kiritan/)
     - [VOICEROID+ 月読アイ EX](https://www.ah-soft.com/voiceroid/ai/)
+
   </details>
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://spring-fragrance.mints.ne.jp/aviutl/)AviUtl](https://spring-fragrance.mints.ne.jp/aviutl/)
@@ -57,42 +58,80 @@
 
     <summary>追加プラグイン</summary>
 
-    - [AviUtl](https://spring-fragrance.mints.ne.jp/aviutl/aviutl110.zip)
+    - [直リンク](https://spring-fragrance.mints.ne.jp/aviutl/aviutl110.zip)
+
     - [拡張編集Plugin](https://spring-fragrance.mints.ne.jp/aviutl/exedit92.zip)
+
     - [Plugin sample (aviutl.info)](https://aviutl.info/plugins/#toc2)
+
     - [モーショントラッキング]()
+
       - [MotionTrackingMKⅡ](https://aviutl.info/motiontracking/)
+
         - [MotionTrackingMKⅡ-Release.7z](https://onedrive.live.com/?authkey=%21ABNo3i9YR5%5FdnT8&id=26840CDF9818EB8E%21434&cid=26840CDF9818EB8E)
+
     - 入力プラグイン
+
       - [L-SMASH Works](https://aviutl.info/l-smash-works/)
+
         - [L-SMASH Works](https://pop.4-bit.jp/?page_id=7929)
+
       - [InputPipePlugin](https://www.nicovideo.jp/watch/sm35585310)
+
         - [InputPipePlugin](https://github.com/amate/InputPipePlugin/releases/latest)
+
       - [AviUtlSvg](https://aviutl.info/svg/)
+
         - [AviUtlSvg](https://onedrive.live.com/?authkey=%21ABNo3i9YR5%5FdnT8&cid=26840CDF9818EB8E&id=26840CDF9818EB8E%21365&parId=26840CDF9818EB8E%21349&o=OneUp)
+
       - [SRT/ASS Subtitle Reader](https://www.nicovideo.jp/watch/sm24419941)
+
         - [SRT/ASS Subtitle Reader](https://onedrive.live.com/?cid=26840CDF9818EB8E&id=26840CDF9818EB8E%21411&parId=26840CDF9818EB8E%21410&o=OneUp)
-    - [サムネイル表示]
+
+    - サムネイル表示
+
       - [Aviutl プラグイン シークバー＋](https://aoytsk.blog.jp/aviutl/613302.html)
+
         - [Aviutl プラグイン シークバー＋](https://aoytsk.blog.jp/aviutl/seekbarx.zip)
+
     - [ごちゃまぜドロップス](https://x.com/oovch/status/699737247260606465)
+
       - [ごちゃまぜドロップス](https://github.com/oov/aviutl_oledd/releases)
+
     - [カット編集プラグイン](https://aviutl.info/cutedit/)
+
       - [CutEdit](http://aviutl.web.fc2.com/)
+
     - [拡張編集RAMプレビュー](https://www.nicovideo.jp/watch/sm32668490)
+
       - [拡張編集RAMプレビュー](https://github.com/oov/aviutl_rampreview/releases)
+
     - [VSTプラグイン](https://aviutl.info/vst/)
+
       - [VSTプラグイン](https://aviutl.info/vst/)
+
     - [Twitterの絵文字を使えるようにするヤツ](https://www.nicovideo.jp/watch/sm38772089)
+
       - [Twitterの絵文字を使えるようにするヤツ](https://www.nicovideo.jp/watch/sm38772089)
+
       - [前提: bridge.dll](https://github.com/oov/aviutl_bridge/releases)
+
     - [PSDToolKit](https://oov.github.io/aviutl_psdtoolkit/index.html)
+
       - [PSDToolKit](https://github.com/oov/aviutl_psdtoolkit/releases)
 
   </details>
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=http://nagatsuki.la.coocan.jp/bunbackup/)BunBackup](https://forest.watch.impress.co.jp/library/software/bunbackup/)
-  - [直リンク](https://dforest.watch.impress.co.jp/library/b/bunbackup/11539/BunBackupS611.exe)
+
+  <details>
+
+    <summary>追加プラグイン</summary>
+
+    - [直リンク](https://dforest.watch.impress.co.jp/library/b/bunbackup/11539/BunBackupS611.exe)
+
+  </details>
+
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://chigusa-web.com/clibor/download/)Clibor](https://www.vector.co.jp/download/file/winnt/util/fh767948.html)
 
