@@ -157,6 +157,8 @@
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://hoyoplay.hoyoverse.com/)HoyoPlay](https://sg-public-api.hoyoverse.com/event/download_porter/trace/hyp_global/hyphoyoverse/default?url=https%3A%2F%2Fhoyoplay.hoyoverse.com%2F%3Flang%3Dja-jp)
 
+- [iMyFoneMagicMic](https://jp.imyfone.com/voice-changer/?pid=96&custom=com_jp)
+
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://pay.line.me/)Line](https://pay.line.me/portal/jp/apps/line)
   - [直リンク](https://desktop.line-scdn.net/win/new/LineInst.exe)
   - [ms store](https://apps.microsoft.com/store/detail/XPFCC4CD725961?ocid=pdpshare)
@@ -173,11 +175,9 @@
     <summary>追加プラグイン</summary>
 
     - [【音声波形】OBSにオーディオスペクトラムを表示する【spectralizer】](https://www.ruri.info/obs-spectralizer/)
-
       - [spectralizer](https://github.com/univrsal/spectralizer/releases/)
 
     - [OBSでYoutubeとTwitch同時配信をする方法](https://castcraft.live/blog/279/)
-
       - [obs-multi-rtmp](https://github.com/sorayuki/obs-multi-rtmp/releases/)
 
   </details>
@@ -201,7 +201,6 @@
 - [![](https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.kingjim.co.jp/&size=16)TEPRA Label Editor SPC10](https://www.kingjim.co.jp/download/tepra/labeleditor.html?open=tab-02&move=anc-01)
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://teratermproject.github.io/)TeraTerm](https://github.com/TeraTermProject/teraterm/releases)
-
   - 通常は zip を使用
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://www.videolan.org/)Video LAN VLC Player](https://www.videolan.org/vlc/download-windows.html) 
@@ -237,7 +236,6 @@
     - [ガイノイドTALK 鳴花ヒメ・ミコト](https://www.gynoid.co.jp/items/view/19)
 
   </details>
-
 
 - [キングジム テプラPRO モノクロ SR5900P](https://www.kingjim.co.jp/download/tepra/sr5900p/)
   - [直リンク](https://www.kingjim.co.jp/resource-files/download/tepra/SPC10_306.zip) を使用中
