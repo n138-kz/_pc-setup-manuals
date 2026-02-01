@@ -108,7 +108,7 @@
 
   </details>
 
-- [<img src="https://forest.watch.impress.co.jp/library/img/file/10872/icon.gif" style="height:64px">BunBackup](https://forest.watch.impress.co.jp/library/software/bunbackup/)
+- [<img src="https://forest.watch.impress.co.jp/library/img/file/10872/icon.gif" style="height:64px;width:64px;">BunBackup](https://forest.watch.impress.co.jp/library/software/bunbackup/)
   - [直リンク](https://dforest.watch.impress.co.jp/library/b/bunbackup/11539/BunBackupS611.exe)
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://chigusa-web.com/clibor/download/)Clibor](https://www.vector.co.jp/download/file/winnt/util/fh767948.html)
