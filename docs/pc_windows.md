@@ -108,14 +108,12 @@
 
   </details>
 
-- [![](https://www.google.com/s2/favicons?size=64&domain=http://nagatsuki.la.coocan.jp/bunbackup/)BunBackup](https://forest.watch.impress.co.jp/library/software/bunbackup/)
-
+- [![](https://forest.watch.impress.co.jp/library/img/file/10872/icon.gif)BunBackup](https://forest.watch.impress.co.jp/library/software/bunbackup/)
   - [直リンク](https://dforest.watch.impress.co.jp/library/b/bunbackup/11539/BunBackupS611.exe)
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://chigusa-web.com/clibor/download/)Clibor](https://www.vector.co.jp/download/file/winnt/util/fh767948.html)
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://discord.com/)Discord](https://discord.com/)
-
   - [直リンク](https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x64)
   - [ms store](https://apps.microsoft.com/store/detail/XPDC2RH70K22MN?ocid=pdpshare)
 
