@@ -58,6 +58,7 @@
     <summary>直リンク</summary>
 
     | Name | Descr | Update At |
+    | ---- | ----- | --------- |
     | [aviutl110.zip](https://spring-fragrance.mints.ne.jp/aviutl/aviutl110.zip) | version1.10 | 2019/10/3 |
     | [exedit92.zip](https://spring-fragrance.mints.ne.jp/aviutl/exedit92.zip) | version0.92 | 2013/7/15 |
 
