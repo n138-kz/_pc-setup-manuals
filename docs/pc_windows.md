@@ -52,7 +52,17 @@
   </details>
 
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://spring-fragrance.mints.ne.jp/aviutl/)AviUtl](https://spring-fragrance.mints.ne.jp/aviutl/)
-  - [直リンク](https://spring-fragrance.mints.ne.jp/aviutl/aviutl110.zip)
+
+  <details>
+
+    <summary>直リンク</summary>
+
+    | Name | Descr | Update At |
+    | ---- | ----- | --------- |
+    | [aviutl110.zip](https://spring-fragrance.mints.ne.jp/aviutl/aviutl110.zip) | version1.10 | 2019/10/3 |
+    | [exedit92.zip](https://spring-fragrance.mints.ne.jp/aviutl/exedit92.zip) | version0.92 | 2013/7/15 |
+
+  </details>
 
   <details>
 
@@ -105,6 +115,31 @@
 
     - [PSDToolKit](https://oov.github.io/aviutl_psdtoolkit/index.html)
       - [PSDToolKit](https://github.com/oov/aviutl_psdtoolkit/releases)
+
+  </details>
+
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://spring-fragrance.mints.ne.jp/aviutl/)AviUtl2](https://spring-fragrance.mints.ne.jp/aviutl/)
+
+  <details>
+
+    <summary>直リンク: 	2026/2/8, beta32</summary>
+
+    | Name | Descr | Update At |
+    | ---- | ----- | --------- |
+    | [AviUtl2beta32_setup.exe](https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta32_setup.exe) | version2 beta32(インストーラ版) | 2026/2/8 |
+    | [aviutl2beta32.zip](https://spring-fragrance.mints.ne.jp/aviutl/aviutl2beta32.zip) | version2 beta32 | 2026/2/8 |
+    | [aviutl2_sdk.zip](https://spring-fragrance.mints.ne.jp/aviutl/aviutl2_sdk.zip) | AviUtl ExEdit2 Plugin SDK | 2026/2/8 |
+
+  </details>
+
+  <details>
+
+    <summary>追加プラグイン</summary>
+
+    | Name | Descr | Update At |
+    | ---- | ----- | --------- |
+    | [AviUtl2-rs Demo Plugins](https://github.com/sevenc-nanashi/aviutl2-rs/releases) | スクリプト検索プラグイン | 2026/2/10 |
+    | [aviutl2-catalog](https://github.com/Neosku/aviutl2-catalog/releases) | AviUtl2 カタログ | 2026/1/24 |
 
   </details>
 
