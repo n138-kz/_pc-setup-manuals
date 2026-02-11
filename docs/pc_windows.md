@@ -108,6 +108,29 @@
 
   </details>
 
+- [![](https://www.google.com/s2/favicons?size=64&domain=https://spring-fragrance.mints.ne.jp/aviutl/)AviUtl2](https://spring-fragrance.mints.ne.jp/aviutl/)
+
+  <details>
+
+    <summary>直リンク: 	2026/2/8, beta32</summary>
+
+    - [AviUtl2beta32_setup.exe](https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta32_setup.exe)
+    - [aviutl2beta32.zip](https://spring-fragrance.mints.ne.jp/aviutl/aviutl2beta32.zip)
+    - [aviutl2_sdk.zip](https://spring-fragrance.mints.ne.jp/aviutl/aviutl2_sdk.zip)
+
+  </details>
+
+  <details>
+
+    <summary>追加プラグイン</summary>
+
+    | Name | Descr | Update At |
+    | ---- | ----- | --------- |
+    | [AviUtl2-rs Demo Plugins](https://github.com/sevenc-nanashi/aviutl2-rs/releases) | スクリプト検索プラグイン | 2026/2/10 |
+    | [aviutl2-catalog](https://github.com/Neosku/aviutl2-catalog/releases) | AviUtl2 カタログ | 2026/1/24 |
+
+  </details>
+
 - [<img src="https://forest.watch.impress.co.jp/library/img/file/10872/icon.gif" style="height:16px;width:16px;">BunBackup](https://forest.watch.impress.co.jp/library/software/bunbackup/)
   - [直リンク](https://dforest.watch.impress.co.jp/library/b/bunbackup/11539/BunBackupS611.exe)
 
