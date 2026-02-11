@@ -123,9 +123,11 @@
 
     <summary>直リンク: 	2026/2/8, beta32</summary>
 
-    - [AviUtl2beta32_setup.exe](https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta32_setup.exe)
-    - [aviutl2beta32.zip](https://spring-fragrance.mints.ne.jp/aviutl/aviutl2beta32.zip)
-    - [aviutl2_sdk.zip](https://spring-fragrance.mints.ne.jp/aviutl/aviutl2_sdk.zip)
+    | Name | Descr | Update At |
+    | ---- | ----- | --------- |
+    | [AviUtl2beta32_setup.exe](https://spring-fragrance.mints.ne.jp/aviutl/AviUtl2beta32_setup.exe) | version2 beta32(インストーラ版) | 2026/2/8 |
+    | [aviutl2beta32.zip](https://spring-fragrance.mints.ne.jp/aviutl/aviutl2beta32.zip) | version2 beta32 | 2026/2/8 |
+    | [aviutl2_sdk.zip](https://spring-fragrance.mints.ne.jp/aviutl/aviutl2_sdk.zip) | AviUtl ExEdit2 Plugin SDK | 2026/2/8 |
 
   </details>
 
